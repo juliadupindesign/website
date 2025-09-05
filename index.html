@@ -146,12 +146,20 @@
                 <h2 class="section-title" data-i18n="contact">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
+                    <form id="contact-form" action="" class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input" data-i18n-placeholder="labelName">
                         <input type="mail" placeholder="Email" class="contact__input" data-i18n-placeholder="labelEmail">
                         <textarea cols="0" rows="10" class="contact__input" data-i18n-placeholder="labelMessage"></textarea>
-                        <input type="button" value="Send" class="contact__button button" data-i18n-value="submit">
+                        <input type="submit" value="Send" class="contact__button button" id="sendBtn" disabled>
+
+                        <!-- Optional reCAPTCHA -->
+                        <div class="g-recaptcha" 
+                             data-sitekey="YOUR_RECAPTCHA_SITE_KEY" 
+                             data-callback="enableSubmit">
+                        </div>
                     </form>
+                    <!-- In-page message -->
+                    <div id="form-message" style="margin-top: 1rem; font-weight: bold; text-align: center;"></div>
                 </div>
             </section>
         </main>
@@ -175,7 +183,44 @@
 
         <!--===== LANG JS =====-->
         <script src="assets/js/lang.js"></script>
+
+        <!-- EmailJS SDK -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init("Hu9DokggGM-vvJ3OL"); // replace with your EmailJS Public Key
+            })();
+        </script>
+
+        <script>
+          // Enable Send button after reCAPTCHA is solved
+          function enableSubmit() {
+            document.getElementById("sendBtn").disabled = false;
+          }
+        
+          // Handle form submission
+          document.getElementById("contact-form").addEventListener("submit", function(e){
+            e.preventDefault(); // prevent page reload
+        
+            const formMessage = document.getElementById("form-message");
+        
+            emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+              .then(() => {
+                formMessage.style.color = "green";
+                formMessage.innerHTML = "✅ Merci ! Thank you!";
+                this.reset(); // clear the form
+                if (grecaptcha) grecaptcha.reset(); // reset reCAPTCHA if used
+                document.getElementById("sendBtn").disabled = true; // disable until next reCAPTCHA
+              })
+              .catch((err) => {
+                formMessage.style.color = "red";
+                formMessage.innerHTML = "❌ Error. Merci de reessayer. Please try again later.";
+                console.error("EmailJS error:", err);
+              });
+          });
+        </script>
     </body>
 </html>
+
 
 
