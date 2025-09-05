@@ -12,7 +12,7 @@
 <body>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center justify-content-between position-relative">
+        <div class="container d-flex align-items-center justify-content-between">
 
             <h1 class="logo"><a href="index.html" data-i18n="logo_text">My Portfolio</a></h1>
 
@@ -25,12 +25,6 @@
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
-
-            <!-- Language Switcher (safe position) -->
-            <div id="language-switcher">
-                <button onclick="setLanguage('en')">EN</button>
-                <button onclick="setLanguage('fr')">FR</button>
-            </div>
 
         </div>
     </header>
@@ -92,7 +86,7 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <!-- ======= Translations and Language Switcher ======= -->
+    <!-- ======= Translation JS ======= -->
     <script>
         const translations = {
             en: {
@@ -149,26 +143,9 @@
         });
     </script>
 
-    <!-- Minimal CSS for safe language switcher placement -->
+    <!-- Minimal CSS placeholder (won't affect layout) -->
     <style>
-        #language-switcher {
-            position: absolute;
-            top: 15px;
-            right: 20px;
-            display: flex;
-            gap: 5px;
-            z-index: 999;
-        }
-
-        #language-switcher button {
-            cursor: pointer;
-            background: none;
-            border: 1px solid #fff;
-            color: #fff;
-            padding: 3px 7px;
-            border-radius: 5px;
-            font-size: 0.9em;
-        }
+        /* Empty placeholder for testing */
     </style>
 
 </body>
