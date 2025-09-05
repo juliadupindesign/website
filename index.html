@@ -1,153 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="page_title">My Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/img/favicon.png">
-</head>
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-<body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center justify-content-between">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-            <h1 class="logo"><a href="index.html" data-i18n="logo_text">My Portfolio</a></h1>
+        <title data-i18n="title">Portfolio website complete</title>
+    </head>
+    <body>
+        <!-- ===== LANGUAGE SWITCHER ===== -->
+        <div style="position: fixed; top: 1rem; right: 1rem; z-index: 1000;">
+          <button onclick="setLanguage('en')">EN</button>
+          <button onclick="setLanguage('fr')">FR</button>
+        </div>
 
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto active" href="#hero" data-i18n="nav_home">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about" data-i18n="nav_about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
-                    <li><a class="nav-link scrollto" href="#contact" data-i18n="nav_contact">Contact</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo" data-i18n="logo">Marlon</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link" data-i18n="home">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link" data-i18n="about">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link" data-i18n="skills">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link" data-i18n="work">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link" data-i18n="contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
             </nav>
+        </header>
 
-        </div>
-    </header>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title" data-i18n="welcome">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero">
-        <div class="hero-container">
-            <h1 data-i18n="hero_title">Welcome to My Portfolio</h1>
-            <h2 data-i18n="hero_subtitle">I am a Web Developer</h2>
-            <a href="#portfolio" class="btn-get-started scrollto" data-i18n="hero_button">My Work</a>
-        </div>
-    </section>
+                    <a href="#contact" class="button" data-i18n="contactButton">Contact</a>
+                </div>
 
-    <!-- ======= About Section ======= -->
-    <section id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2 data-i18n="about_title">About Me</h2>
-                <p data-i18n="about_description">I am a passionate web developer with experience in modern web technologies...</p>
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title" data-i18n="about">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle" data-i18n="aboutSubtitle">I'am Marlon</h2>
+                        <p class="about__text" data-i18n="aboutText">Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title" data-i18n="skills">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle" data-i18n="skillsSubtitle">Professional Skills</h2>
+                        <p class="skills__text" data-i18n="skillsText">Lorem ipsum dolor sit...</p>
+                        <!-- Keep your skill items as they are -->
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title" data-i18n="work">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <!-- work items unchanged -->
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title" data-i18n="contact">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input" data-i18n-placeholder="labelName">
+                        <input type="mail" placeholder="Email" class="contact__input" data-i18n-placeholder="labelEmail">
+                        <textarea cols="0" rows="10" class="contact__input" data-i18n-placeholder="labelMessage"></textarea>
+                        <input type="button" value="Send" class="contact__button button" data-i18n-value="submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title" data-i18n="logo">Marlon</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-        </div>
-    </section>
+            <p class="footer__copy">&#169; Bedimcode. All rights reserved</p>
+        </footer>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="section-title">
-                <h2 data-i18n="portfolio_title">Portfolio</h2>
-                <p data-i18n="portfolio_description">Here are some of my recent projects...</p>
-            </div>
-        </div>
-    </section>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2 data-i18n="contact_title">Contact</h2>
-                <p data-i18n="contact_description">Feel free to reach out for collaborations or freelance work.</p>
-            </div>
-        </div>
-    </section>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container">
-            <p data-i18n="footer_text">&copy; 2025 My Portfolio. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
-
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/js/main.js"></script>
-
-    <!-- ======= Translation JS ======= -->
-    <script>
-        const translations = {
-            en: {
-                page_title: "My Portfolio",
-                logo_text: "My Portfolio",
-                nav_home: "Home",
-                nav_about: "About",
-                nav_portfolio: "Portfolio",
-                nav_contact: "Contact",
-                hero_title: "Welcome to My Portfolio",
-                hero_subtitle: "I am a Web Developer",
-                hero_button: "My Work",
-                about_title: "About Me",
-                about_description: "I am a passionate web developer with experience in modern web technologies...",
-                portfolio_title: "Portfolio",
-                portfolio_description: "Here are some of my recent projects...",
-                contact_title: "Contact",
-                contact_description: "Feel free to reach out for collaborations or freelance work.",
-                footer_text: "© 2025 My Portfolio. All Rights Reserved."
-            },
-            fr: {
-                page_title: "Mon Portfolio",
-                logo_text: "Mon Portfolio",
-                nav_home: "Accueil",
-                nav_about: "À propos",
-                nav_portfolio: "Portfolio",
-                nav_contact: "Contact",
-                hero_title: "Bienvenue sur mon portfolio",
-                hero_subtitle: "Je suis développeur web",
-                hero_button: "Mes Projets",
-                about_title: "À propos de moi",
-                about_description: "Je suis un développeur web passionné avec de l'expérience dans les technologies web modernes...",
-                portfolio_title: "Portfolio",
-                portfolio_description: "Voici quelques-uns de mes projets récents...",
-                contact_title: "Contact",
-                contact_description: "N'hésitez pas à me contacter pour des collaborations ou du freelance.",
-                footer_text: "© 2025 Mon Portfolio. Tous droits réservés."
-            }
-        };
-
-        function setLanguage(lang) {
-            localStorage.setItem('lang', lang);
-            document.querySelectorAll('[data-i18n]').forEach(el => {
-                const key = el.getAttribute('data-i18n');
-                if (translations[lang][key]) {
-                    el.textContent = translations[lang][key];
-                }
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const savedLang = localStorage.getItem('lang') || 'en';
-            setLanguage(savedLang);
-        });
-    </script>
-
-    <!-- Minimal CSS placeholder (won't affect layout) -->
-    <style>
-        /* Empty placeholder for testing */
-    </style>
-
-</body>
-
+        <!--===== LANG JS =====-->
+        <script src="assets/js/lang.js"></script>
+    </body>
 </html>
