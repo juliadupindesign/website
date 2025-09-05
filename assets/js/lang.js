@@ -18,7 +18,20 @@ const translations = {
     labelName: "Name",
     labelEmail: "Email",
     labelMessage: "Message",
-    submit: "Send"
+    submit: "Send",
+    projects_title: "Projects",
+    project1_title: "Project 1",
+    project1_desc: "Detailed description of project 1 in English...",
+    project2_title: "Project 2",
+    project2_desc: "Detailed description of project 2 in English...",
+    project3_title: "Project 3",
+    project3_desc: "Detailed description of project 3 in English...",
+    project4_title: "Project 4",
+    project4_desc: "Detailed description of project 4 in English...",
+    project5_title: "Project 5",
+    project5_desc: "Detailed description of project 5 in English...",
+    project6_title: "Project 6",
+    project6_desc: "Detailed description of project 6 in English..."
   },
   fr: {
     title: "Site web portfolio complet",
@@ -37,7 +50,20 @@ const translations = {
     labelName: "Nom",
     labelEmail: "Email",
     labelMessage: "Message",
-    submit: "Envoyer"
+    submit: "Envoyer",
+    projects_title: "Projets",
+    project1_title: "Projet 1",
+    project1_desc: "Description détaillée du projet 1 en français...",
+    project2_title: "Projet 2",
+    project2_desc: "Description détaillée du projet 2 en français...",
+    project3_title: "Projet 3",
+    project3_desc: "Description détaillée du projet 3 en français...",
+    project4_title: "Projet 4",
+    project4_desc: "Description détaillée du projet 4 en français...",
+    project5_title: "Projet 5",
+    project5_desc: "Description détaillée du projet 5 en français...",
+    project6_title: "Projet 6",
+    project6_desc: "Description détaillée du projet 6 en français..."
   }
 };
 
