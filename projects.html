@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <title data-i18n="projects_title">Projects</title>
+</head>
+<body>
+  <!-- ===== LANGUAGE SWITCHER ===== -->
+  <div style="position: fixed; top: 1rem; right: 1rem; z-index: 1000;">
+    <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('fr')">FR</button>
+  </div>
+
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="index.html" class="nav__logo" data-i18n="logo">Marlon</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html#home" class="nav__link" data-i18n="home">Home</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link" data-i18n="about">About</a></li>
+          <li class="nav__item"><a href="index.html#skills" class="nav__link" data-i18n="skills">Skills</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link" data-i18n="work">Work</a></li>
+          <li class="nav__item"><a href="index.html#contact" class="nav__link" data-i18n="contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <section class="section" id="project-1">
+      <h2 class="section-title" data-i18n="project1_title">Project 1</h2>
+      <p data-i18n="project1_desc">Detailed description of project 1...</p>
+    </section>
+
+    <section class="section" id="project-2">
+      <h2 class="section-title" data-i18n="project2_title">Project 2</h2>
+      <p data-i18n="project2_desc">Detailed description of project 2...</p>
+    </section>
+
+    <section class="section" id="project-3">
+      <h2 class="section-title" data-i18n="project3_title">Project 3</h2>
+      <p data-i18n="project3_desc">Detailed description of project 3...</p>
+    </section>
+
+    <section class="section" id="project-4">
+      <h2 class="section-title" data-i18n="project4_title">Project 4</h2>
+      <p data-i18n="project4_desc">Detailed description of project 4...</p>
+    </section>
+
+    <section class="section" id="project-5">
+      <h2 class="section-title" data-i18n="project5_title">Project 5</h2>
+      <p data-i18n="project5_desc">Detailed description of project 5...</p>
+    </section>
+
+    <section class="section" id="project-6">
+      <h2 class="section-title" data-i18n="project6_title">Project 6</h2>
+      <p data-i18n="project6_desc">Detailed description of project 6...</p>
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title" data-i18n="logo">Marlon</p>
+    <div class="footer__social">
+      <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+      <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+      <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+    </div>
+    <p class="footer__copy">&#169; Bedimcode. All rights reserved</p>
+  </footer>
+
+  <!--===== JS =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/lang.js"></script>
+
+  <!-- Smooth scroll to project -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+          setTimeout(() => {
+            target.scrollIntoView({ behavior: "smooth" });
+          }, 300);
+        }
+      }
+    });
+  </script>
+</body>
+</html>
