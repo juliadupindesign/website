@@ -22,14 +22,13 @@
                     <li><a class="nav-link scrollto" href="#about" data-i18n="nav_about">About</a></li>
                     <li><a class="nav-link scrollto" href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="#contact" data-i18n="nav_contact">Contact</a></li>
+
+                    <!-- Language switcher as a menu item -->
+                    <li class="language-switcher">
+                        <button onclick="setLanguage('en')">EN</button>
+                        <button onclick="setLanguage('fr')">FR</button>
+                    </li>
                 </ul>
-
-                <!-- Language Switcher (inside nav) -->
-                <div id="language-switcher">
-                    <button onclick="setLanguage('en')">English</button>
-                    <button onclick="setLanguage('fr')">Français</button>
-                </div>
-
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
 
@@ -38,7 +37,7 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero">
-        <div class="hero-container" data-i18n="hero_text">
+        <div class="hero-container">
             <h1 data-i18n="hero_title">Welcome to My Portfolio</h1>
             <h2 data-i18n="hero_subtitle">I am a Web Developer</h2>
             <a href="#portfolio" class="btn-get-started scrollto" data-i18n="hero_button">My Work</a>
@@ -150,29 +149,21 @@
         });
     </script>
 
+    <!-- Minimal CSS for language switcher -->
     <style>
-        /* Simple styling for language switcher inside nav */
-        #language-switcher {
+        .language-switcher {
             display: flex;
-            gap: 10px;
-            margin-left: 20px;
+            gap: 5px;
         }
 
-        #language-switcher button {
+        .language-switcher button {
             cursor: pointer;
             background: none;
             border: 1px solid #fff;
             color: #fff;
-            padding: 5px 10px;
+            padding: 3px 7px;
             border-radius: 5px;
-        }
-
-        /* Responsive tweak for mobile nav */
-        @media (max-width: 768px) {
-            #language-switcher {
-                margin-left: 0;
-                margin-top: 10px;
-            }
+            font-size: 0.9em;
         }
     </style>
 
