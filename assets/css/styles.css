@@ -495,9 +495,11 @@ img {
 }
 
 /* Add spacing above/below the reCAPTCHA */
+/* Center the reCAPTCHA iframe */
 .g-recaptcha {
-  display: block;
-  margin: 1.5rem auto;
+  display: flex !important;
+  justify-content: center;
+  margin: 1.5rem 0;
 }
 
 /* Make Message textarea font consistent */
