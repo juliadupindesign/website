@@ -484,3 +484,24 @@ img {
     width: 450px;
   }
 }
+
+/* === Contact Form Fixes === */
+
+/* Center the Send button */
+.contact__button {
+  display: block;
+  margin: 1rem auto 0;
+}
+
+/* Add spacing above/below the reCAPTCHA */
+.g-recaptcha {
+  margin: 1rem 0;
+}
+
+/* Make Message textarea font consistent */
+.contact__input,
+.contact__input::placeholder,
+textarea.contact__input {
+  font-family: inherit;
+  font-size: 1rem;
+}
