@@ -514,24 +514,23 @@ textarea.contact__input {
 
 /* Desktop default position */
 .language-switcher {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  z-index: 1000;
+  position: fixed;   /* keeps it floating */
+  top: 1rem;         /* distance from top on desktop */
+  right: 1rem;       /* distance from right edge */
+  z-index: 1000;     /* ensures it’s above other elements */
+  display: flex;     /* align buttons horizontally */
+  gap: 0.5rem;       /* space between buttons */
 }
 
-/* Optional: style the buttons a bit */
 .language-switcher button {
-  margin-left: 0.5rem;
   padding: 0.3rem 0.6rem;
   font-size: 0.9rem;
   cursor: pointer;
 }
 
-/* Mobile: move buttons down to avoid overlapping menu toggle */
 @media screen and (max-width: 768px) {
   .language-switcher {
-    top: 4rem; /* moves below the three-bar menu */
+    top: 4rem;       /* move down on mobile */
     right: 1rem;
   }
 }
