@@ -511,26 +511,40 @@ textarea.contact__input {
 }
 
 /* ===== Language Switcher ===== */
-
-/* Desktop default position */
 .language-switcher {
-  position: fixed;   /* keeps it floating */
-  top: 1rem;         /* distance from top on desktop */
-  right: 1rem;       /* distance from right edge */
-  z-index: 1000;     /* ensures it’s above other elements */
-  display: flex;     /* align buttons horizontally */
-  gap: 0.5rem;       /* space between buttons */
+  position: fixed;       /* keep it floating above content */
+  top: 1rem;             /* distance from top on desktop */
+  right: 1rem;           /* distance from right edge */
+  z-index: 1000;         /* ensure it’s above other elements */
+  display: flex;         /* arrange buttons horizontally */
+  gap: 0.5rem;           /* space between buttons */
 }
 
+/* Style the buttons */
 .language-switcher button {
   padding: 0.3rem 0.6rem;
   font-size: 0.9rem;
   cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 3px;
+  transition: background-color 0.2s;
 }
 
+.language-switcher button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Mobile screens: move buttons below hamburger menu */
 @media screen and (max-width: 768px) {
   .language-switcher {
-    top: 4rem;       /* move down on mobile */
+    top: 4rem;          /* move down so it doesn’t overlap menu toggle */
     right: 1rem;
+    gap: 0.4rem;        /* slightly smaller spacing for small screens */
+  }
+
+  .language-switcher button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
   }
 }
