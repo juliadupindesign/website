@@ -488,20 +488,22 @@ img {
 /* === Contact Form Fixes === */
 
 /* Center the Send button */
-.contact__button {
+.contact__button.button {
   display: block;
   margin: 1rem auto 0;
+  text-align: center;
 }
 
 /* Add spacing above/below the reCAPTCHA */
 .g-recaptcha {
-  margin: 1rem 0;
+  display: block;
+  margin: 1.5rem auto;
 }
 
 /* Make Message textarea font consistent */
 .contact__input,
 .contact__input::placeholder,
 textarea.contact__input {
-  font-family: inherit;
-  font-size: 1rem;
+  font-family: inherit !important;
+  font-size: 1rem !important;
 }
