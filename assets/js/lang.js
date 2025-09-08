@@ -30,10 +30,7 @@ const translations = {
     projects: {
       idefix: {
         title: "Idefix rover",
-        intro: `This is a personal project.
-A brochure for an exhibition about the IDEFIX rover, with information on both the IDEFIX rover and the mission it is part of (MMX mission).
-The brochure has an interactive aspect: once one starts opening the brochure one incidentally helps IDEFIX open its solar panels.
-All text comes from CNES webpages.`,
+        intro: "This is a personal project.\nA brochure for an exhibition about the IDEFIX rover, with information on both the IDEFIX rover and the mission it is part of (MMX mission).\nThe brochure has an interactive aspect: once one starts opening the brochure, one incidentally helps IDEFIX open its solar panels.\nAll text comes from the website of the CNES."
       },
       greenhouse: {
         title: "Greenhouse Project",
