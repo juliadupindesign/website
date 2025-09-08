@@ -187,6 +187,7 @@ img {
 
 .home__data {
   align-self: center;
+  text-align: left; /* force left alignment */
 }
 
 .home__title {
