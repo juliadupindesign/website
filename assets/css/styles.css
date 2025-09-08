@@ -1,5 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -335,11 +337,25 @@ img {
 }
 .contact__button {
   display: block;
+  margin: 1rem auto 0;
+  text-align: center;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+}
+
+.g-recaptcha {
+  display: flex !important;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.contact__input,
+.contact__input::placeholder,
+textarea.contact__input {
+  font-family: inherit !important;
+  font-size: 1rem !important;
 }
 
 /* ===== FOOTER =====*/
