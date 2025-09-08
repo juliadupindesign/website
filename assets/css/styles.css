@@ -537,3 +537,35 @@ textarea.contact__input {
     width: 450px;
   }
 }
+
+/* ===== PROJECT SECTION ===== */
+.project.section {
+  padding: 3rem 1rem;        /* space around section */
+  max-width: 1024px;         /* center content */
+  margin: 0 auto;
+}
+
+.project .section-title {
+  text-align: left;           /* keep title left-aligned */
+  margin-bottom: 2rem;
+}
+
+.project p {
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 2rem;       /* space below text before images */
+  white-space: pre-line;     /* preserves single line breaks */
+}
+
+.project__gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;                 /* space between images, both horizontal & vertical */
+  margin-bottom: 2rem;       /* space after gallery */
+}
+
+.project__gallery img {
+  width: 100%;
+  display: block;
+  border-radius: 0.5rem;     /* optional: rounded corners */
+}
