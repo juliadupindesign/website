@@ -345,6 +345,13 @@ img {
   cursor: pointer;
 }
 
+/* Center the Send button */
+.contact__button.button {
+  display: block;
+  margin: 1rem auto 0;
+  text-align: center;
+}
+
 .g-recaptcha {
   display: flex !important;
   justify-content: center;
