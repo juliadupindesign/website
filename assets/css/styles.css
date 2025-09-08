@@ -8,9 +8,9 @@
 
   /* Colors */
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --hue-color: 300; /* Purple */
+  --first-color: hsl(var(--hue-color), 100%, 25%); /* purple for titles, highlights */
+  --second-color: hsl(var(--hue-color), 56%, 12%);  /* darker shade for text */
 
   /* Font sizes */
   --body-font: "Poppins", sans-serif;
@@ -532,11 +532,26 @@ textarea.contact__input {
     text-align: initial;
   }
   .work__container { grid-template-columns: repeat(3, 1fr); column-gap: 2rem; }
+  .home {
+    display: grid;
+    grid-template-columns: 1fr auto; /* text on left, image on right */
+    align-items: center;
+  }
+  .home__data {
+    text-align: left;
+    z-index: 1; /* ensure text is above the image */
+  }
+  .home__img {
+    position: relative; /* remove absolute positioning */
+    width: 400px;       /* or your desired size */
+    bottom: auto;       /* cancel previous bottom positioning */
+    right: auto;        /* cancel previous right positioning */
+  }
 }
 
 /* Large desktop */
 @media screen and (min-width: 992px) {
   .bd-grid { margin-left: auto; margin-right: auto; }
   .home { padding: 10rem 0 2rem; }
-  .home__img { width: 450px; }
+  .home__img { width: 350px; }
 }
