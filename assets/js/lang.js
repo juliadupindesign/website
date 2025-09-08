@@ -86,15 +86,14 @@ function getNestedTranslation(obj, keyString) {
 function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
-    const value = getNestedTranslation(translations[lang], key);
 
-    if (value) {
-      // If value is an array, join with <br> for paragraphs
-      if (Array.isArray(value)) {
-        el.innerHTML = value.join('<br><br>');
-      } else {
-        el.innerHTML = value;
-      }
+    // Use helper to get nested key, e.g., projects.idefix.intro
+    let value = getNestedTranslation(translations[lang], key);
+
+    if (Array.isArray(value)) {
+      el.innerHTML = value.join('<br>');  // join array elements with <br>
+    } else if (value) {
+      el.innerHTML = value;
     }
   });
 
