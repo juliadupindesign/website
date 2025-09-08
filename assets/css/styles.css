@@ -543,6 +543,8 @@ textarea.contact__input {
   padding: 3rem 1rem;        /* space around section */
   max-width: 1024px;         /* center content */
   margin: 0 auto;
+  padding-top: 6rem;  /* space between header and section */
+  padding-bottom: 3rem; /* optional, for breathing room after section */
 }
 
 .project .section-title {
@@ -558,14 +560,16 @@ textarea.contact__input {
 }
 
 .project__gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;                 /* space between images, both horizontal & vertical */
-  margin-bottom: 2rem;       /* space after gallery */
+  display: flex;
+  flex-wrap: wrap;       /* allow multiple rows */
+  gap: 2rem;             /* space between images */
+  justify-content: center; /* center the row */
+  margin-top: 2rem;      /* space above gallery */
 }
 
 .project__gallery img {
-  width: 100%;
+  width: 300px;          /* or whatever large size you want */
+  height: auto;          /* keep aspect ratio */
+  border-radius: 0.5rem;
   display: block;
-  border-radius: 0.5rem;     /* optional: rounded corners */
 }
