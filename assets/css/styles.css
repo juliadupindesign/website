@@ -207,16 +207,18 @@ img {
 .home__social-icon:hover {
   color: var(--first-color);
 }
+
 .home__img {
-    width: 100%;          /* fill the grid cell */
-    max-width: 360px;     /* adjust as needed */
-    justify-self: end;    /* push it to the right of the grid */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 260px; /* adjust as needed */
 }
 
 .home__img-img {
     width: 100%;
     display: block;
-    border-radius: 10px;  /* optional */
+    border-radius: 10px; /* optional */
 }
 
 /*BUTTONS*/
