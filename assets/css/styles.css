@@ -208,16 +208,16 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 260px;
+    text-align: center;      /* centers the image horizontally */
+    margin-top: 2rem;        /* space above image */
+    margin-bottom: 2rem;     /* space below image */
+    position: relative;      /* keeps it inside the section */
 }
-.home__blob {
-  fill: var(--first-color);
-}
-.home__blob-img {
-  width: 360px;
+.home__img-img {
+    width: 100%;
+    max-width: 350px;        /* adjust size as needed */
+    display: inline-block;
+    border-radius: 10px;     /* optional, soft rounded corners */
 }
 
 /*BUTTONS*/
