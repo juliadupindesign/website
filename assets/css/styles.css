@@ -212,7 +212,8 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 200px; /* adjust as needed */
+    max-width: 180px;  /* desktop max width */
+    width: 100%;       /* scales down if needed */
 }
 
 .home__img-img {
@@ -368,12 +369,16 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .home {
+    grid-template-columns: 1fr;  /* stack text + image */
+    text-align: center;
     row-gap: 2rem;
   }
+
   .home__img {
-    width: 200px;
+    max-width: 150px;   /* smaller image on mobile/tablet */
+    margin: 0 auto;     /* center under text */
   }
 }
 @media screen and (min-width: 576px) {
