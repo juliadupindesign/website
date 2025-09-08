@@ -27,19 +27,20 @@ const translations = {
     labelEmail: "Email",
     labelMessage: "Message",
     submit: "Send",
-    projects_title: "Projects",
-    project1_title: "Project 1",
-    project1_desc: "Detailed description of project 1 in English...",
-    project2_title: "Project 2",
-    project2_desc: "Detailed description of project 2 in English...",
-    project3_title: "Project 3",
-    project3_desc: "Detailed description of project 3 in English...",
-    project4_title: "Project 4",
-    project4_desc: "Detailed description of project 4 in English...",
-    project5_title: "Project 5",
-    project5_desc: "Detailed description of project 5 in English...",
-    project6_title: "Project 6",
-    project6_desc: "Detailed description of project 6 in English..."
+    projects: {
+      idefix: {
+        title: "Idefix rover",
+        intro: `This is a personal project.
+A brochure for an exhibition about the IDEFIX rover, with information on both the IDEFIX rover and the mission it is part of (MMX mission).
+The brochure has an interactive aspect: once one starts opening the brochure one incidentally helps IDEFIX open its solar panels.
+All text comes from CNES webpages.`,
+      },
+      greenhouse: {
+        title: "Greenhouse Project",
+        intro: "Short introduction for Greenhouse...",
+        more: "More details about Greenhouse..."
+  }
+}
   },
   fr: {
     title: "Site web portfolio complet",
