@@ -208,16 +208,15 @@ img {
   color: var(--first-color);
 }
 .home__img {
-    text-align: center;      /* centers the image horizontally */
-    margin-top: 2rem;        /* space above image */
-    margin-bottom: 2rem;     /* space below image */
-    position: relative;      /* keeps it inside the section */
+    width: 100%;          /* fill the grid cell */
+    max-width: 360px;     /* adjust as needed */
+    justify-self: end;    /* push it to the right of the grid */
 }
+
 .home__img-img {
     width: 100%;
-    max-width: 350px;        /* adjust size as needed */
-    display: inline-block;
-    border-radius: 10px;     /* optional, soft rounded corners */
+    display: block;
+    border-radius: 10px;  /* optional */
 }
 
 /*BUTTONS*/
