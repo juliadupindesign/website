@@ -238,8 +238,11 @@ img {
 
 /* ===== ABOUT =====*/
 .about__container {
-  row-gap: 2rem;
-  text-align: center;
+    row-gap: 2rem;
+    text-align: left;  /* align text normally */
+    display: block;    /* ensures div takes full width */
+    max-width: 800px;  /* optional, limits line length for readability */
+    margin: 0 auto;    /* centers the block on the page */
 }
 .about__subtitle {
   margin-bottom: var(--mb-2);
