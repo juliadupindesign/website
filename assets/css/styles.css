@@ -200,18 +200,16 @@ img {
 }
 
 .home__social {
-  display: flex;
-  flex-direction: column;    /* keeps them stacked vertically */
-  align-items: flex-start;   /* left-aligned under text/button */
-  margin-top: 1rem;          /* spacing below the button */
-  gap: 0.5rem;               /* space between icons */
+    display: flex;       /* keeps icons in a row */
+    flex-direction: column; /* stack vertically on desktop by default */
+    justify-content: flex-start; /* align to top */
+    align-items: flex-start;     /* align left with the text */
+    margin-top: 1rem;    /* optional spacing */
 }
 
 .home__social-icon {
-  width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  color: var(--second-color);
+    margin-bottom: var(--mb-2); /* spacing between icons */
+    color: var(--second-color);
 }
 
 .home__social-icon:hover {
@@ -224,7 +222,6 @@ img {
   bottom: 0;
   width: 200px;
   max-width: 90%;
-  margin: 0 auto;
 }
 
 .home__img-img {
