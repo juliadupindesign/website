@@ -12,9 +12,17 @@ const translations = {
     welcome: "Hi,<br>I'm <span class='home__title-color'>Julia</span><br> Graphic Designer",
     contactButton: "Contact",
     aboutSubtitle: "I'm Julia",
-    aboutText: "A freelance graphic designer based in Toulouse, creating print and digital materials for museums, nonprofits, and public institutions. Posters, visual identities, programs, brochures, etc. — I help you inform, engage, and reach your audience through clear and thoughtful design.",
+    aboutText: "I'm a freelance graphic designer based in Toulouse, creating print and digital materials for museums, nonprofits, and public institutions. Posters, visual identities, programs, brochures, and more — I help you inform, engage, and reach your audience through clear and thoughtful design.\n\nI have a PhD in Ecology and Evolutionary Biology, a Professional Certificate in Museology, and specialized training in Data Science and Graphic Design, allowing me to combine scientific insight with creative communication for impactful results.",
     skillsSubtitle: "Professional Skills",
-    skillsText: "Vector Graphics (Inkscape, Adobe Illustrator), Image Editing (GIMP, Adobe Photoshop), Layout & Typography (Scribus, Canva), Programming & Data (Python, R programming, Git (GitHub))",
+    skillsText: `
+      <ul class="skills-list">
+        <li>🎨 Vector Graphics (Inkscape, Adobe Illustrator)</li>
+        <li>🖌️ Image Editing (GIMP, Adobe Photoshop)</li>
+        <li>📐 Layout & Typography (Scribus, Canva)</li>
+        <li>💻 Programming & Data (Python, R programming, Git (GitHub))</li>
+        <li>💡 Soft skills: creativity, professionalism, mentoring/supervision, professional communication, organization, teamwork, independence, problem solving, empathy and active listening, time management</li>
+      </ul>
+    `,
     labelName: "Name",
     labelEmail: "Email",
     labelMessage: "Message",
