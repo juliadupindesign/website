@@ -2,19 +2,19 @@
 
 const translations = {
   en: {
-    title: "Portfolio website complete",
-    logo: "Marlon",
+    title: "Julia Dupin Design website",
+    logo: "Julia Dupin Design",
     home: "Home",
     about: "About",
     skills: "Skills",
     work: "Work",
     contact: "Contact",
-    welcome: "Hi,<br>I'am <span class='home__title-color'>Marlon</span><br> Web Designer",
+    welcome: "Hi,<br>I'm <span class='home__title-color'>Julia</span><br> Graphic Designer",
     contactButton: "Contact",
     aboutSubtitle: "I'm Julia",
     aboutText: "A freelance graphic designer based in Toulouse, creating print and digital materials for museums, nonprofits, and public institutions. Posters, visual identities, programs, brochures, etc. — I help you inform, engage, and reach your audience through clear and thoughtful design.",
     skillsSubtitle: "Professional Skills",
-    skillsText: "Lorem ipsum dolor sit...",
+    skillsText: "Vector Graphics (Inkscape, Adobe Illustrator), Image Editing (GIMP, Adobe Photoshop), Layout & Typography (Scribus, Canva), Programming & Data (Python, R programming, Git (GitHub))",
     labelName: "Name",
     labelEmail: "Email",
     labelMessage: "Message",
