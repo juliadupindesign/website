@@ -77,30 +77,39 @@ const translations = {
   }
 };
 
+// Helper function to access nested keys in translations
+function getNestedTranslation(obj, keyString) {
+  return keyString.split('.').reduce((o, k) => (o ? o[k] : undefined), obj);
+}
+
 // 2. Apply translations
 function setLanguage(lang) {
-  // Elements with text
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
-    if (translations[lang][key]) {
-      el.innerHTML = translations[lang][key];
+    const value = getNestedTranslation(translations[lang], key);
+
+    if (value) {
+      // If value is an array, join with <br> for paragraphs
+      if (Array.isArray(value)) {
+        el.innerHTML = value.join('<br><br>');
+      } else {
+        el.innerHTML = value;
+      }
     }
   });
 
   // Elements with placeholder
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     const key = el.getAttribute("data-i18n-placeholder");
-    if (translations[lang][key]) {
-      el.setAttribute("placeholder", translations[lang][key]);
-    }
+    const value = getNestedTranslation(translations[lang], key);
+    if (value) el.setAttribute("placeholder", value);
   });
 
   // Elements with value (like <input type="button">)
   document.querySelectorAll("[data-i18n-value]").forEach(el => {
     const key = el.getAttribute("data-i18n-value");
-    if (translations[lang][key]) {
-      el.setAttribute("value", translations[lang][key]);
-    }
+    const value = getNestedTranslation(translations[lang], key);
+    if (value) el.setAttribute("value", value);
   });
 
   // Save preference
