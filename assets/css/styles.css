@@ -212,7 +212,7 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    max-width: 180px;  /* desktop max width */
+    max-width: 260px;  /* desktop max width */
     width: 100%;       /* scales down if needed */
 }
 
@@ -377,7 +377,7 @@ img {
   }
 
   .home__img {
-    max-width: 150px;   /* smaller image on mobile/tablet */
+    max-width: 200px;   /* smaller image on mobile/tablet */
     margin: 0 auto;     /* center under text */
   }
 }
