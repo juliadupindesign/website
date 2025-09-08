@@ -216,9 +216,32 @@
           });
         </script>
         <!-- Load the reCAPTCHA script -->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script>
+          function loadRecaptcha(lang) {
+            // Remove existing reCAPTCHA script if any
+            const oldScript = document.querySelector('script[src*="recaptcha/api.js"]');
+            if (oldScript) oldScript.remove();
+
+            // Create new script element
+            const script = document.createElement('script');
+            script.src = `https://www.google.com/recaptcha/api.js?hl=${lang}`;
+            script.async = true;
+            script.defer = true;
+            document.body.appendChild(script);
+          }
+
+          // Example: get the current language from your lang.js setup
+          const currentLang = localStorage.getItem('lang') || 'en'; // adjust to your language storage
+          loadRecaptcha(currentLang);
+
+          // Optional: if your site allows switching language dynamically
+          function onLanguageChange(newLang) {
+            loadRecaptcha(newLang);
+          }
+        </script>
     </body>
 </html>
+
 
 
 
