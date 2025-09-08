@@ -201,8 +201,10 @@ img {
 
 .home__social {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column;    /* keeps them stacked vertically */
+  align-items: flex-start;   /* left-aligned under text/button */
+  margin-top: 1rem;          /* spacing below the button */
+  gap: 0.5rem;               /* space between icons */
 }
 
 .home__social-icon {
