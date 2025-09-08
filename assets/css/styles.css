@@ -389,6 +389,7 @@ textarea.contact__input {
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2);
+  display: inline-block; /* ensures visibility */
 }
 .footer__copy {
   font-size: var(--smaller-font-size);
