@@ -586,8 +586,8 @@ textarea.contact__input {
 .project__intro p,
 .project__links p {
   text-align: left;      /* left align intro and links */
-  margin-bottom: 0.8rem; /* spacing between lines */
-  line-height: 1.5;
+  margin: 0.3rem 0;
+  line-height: 1.4;
 }
 
 .project__links {
@@ -597,7 +597,8 @@ textarea.contact__input {
 
 .project__links em {
   font-style: italic;
-  display: block;   /* each link on its own line */
+  display: inline;   /* inline instead of block */
+  margin-right: 0.5rem;
 }
 
 /* Optional: if you wrap links in <a> inside <p> */
@@ -607,8 +608,10 @@ textarea.contact__input {
 }
 
 .project__type {
-  text-align: right;     /* right align type */
-  font-style: italic;    /* optional styling for type */
-  margin-top: 1rem;      /* spacing from links */
-  margin-bottom: 2rem;   /* spacing before gallery */
+  display: block;        /* ensure it spans the container */
+  width: 100%;           /* force full line */
+  text-align: right;     /* align text */
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
