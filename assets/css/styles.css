@@ -593,6 +593,8 @@ textarea.contact__input {
 .project__links {
   text-align: left;
   margin-bottom: 1rem;
+  font-size: 0.9rem;   /* smaller font for everything inside */
+  color: #444;         /* color for the "Text:" label */
 }
 
 .project__links em {
@@ -601,10 +603,9 @@ textarea.contact__input {
   margin-right: 0.5rem;
 }
 
-/* Optional: if you wrap links in <a> inside <p> */
 .project__links p a {
   text-decoration: underline;
-  color: #555;     /* optional: muted color */
+  color: #6a1b9a;     /* purple shade for links */
 }
 
 .project__type {
