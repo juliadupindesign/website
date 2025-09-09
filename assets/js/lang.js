@@ -31,11 +31,13 @@ const translations = {
     submit: "Send",
     projects: {
       idefix: {
-        title: "Idefix rover",
+        title: "Idefix rover (personal project)",
         intro: [
-          "This is a personal project.",
-          "A brochure for an exhibition about the IDEFIX rover, with information on both the IDEFIX rover and the mission it is part of (MMX mission).",
-          "The brochure has an interactive aspect: once one starts opening the brochure, one incidentally helps IDEFIX open its solar panels. All text comes from the website of the CNES."
+          "A brochure to complement an exhibition about the IDEFIX rover.",
+          "This brochure has an interactive aspect: once one starts opening the brochure, one incidentally helps IDEFIX open its solar panels.", 
+          "Text from:",
+          "<em>https://cnes.fr/actualites/idefix-passage-de-relai-japon</em>",
+          "<em>https://cnes.fr/projets/mmx</em>"
           ]
       },
       greenhouse: {
