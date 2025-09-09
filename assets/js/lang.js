@@ -98,17 +98,11 @@ function setLanguage(lang) {
     let value = getNestedTranslation(translations[lang], key);
 
     if (Array.isArray(value)) {
-      // Check if the key is a project array with intro, links, type
-      if (key.includes("projects")) {
-        const [intro, links, type] = value; // assuming your array is [introLines, linksLines, typeText]
-    
-        el.innerHTML = `
-          <div class="project-intro">${intro.join('<br>')}</div>
-          <div class="project-links">${links.join('<br>')}</div>
-          <div class="project-type">${type}</div>
-        `;
+      // Determine which element we are populating
+      if (el.classList.contains("project__links")) {
+        el.innerHTML = value.map(v => `<em>${v}</em>`).join(''); // links in italic
       } else {
-        el.innerHTML = value.join('<br>');
+        el.innerHTML = value.join('<br>'); // intro or other arrays
       }
     } else if (value) {
       el.innerHTML = value;
