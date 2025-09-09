@@ -549,7 +549,7 @@ textarea.contact__input {
 }
 
 .project .section-title {
-  text-align: left;           /* keep title left-aligned */
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -561,16 +561,15 @@ textarea.contact__input {
 }
 
 .project__gallery {
-  display: flex;
-  flex-wrap: wrap;       /* allow multiple rows */
-  gap: 2rem;             /* space between images */
-  justify-content: center; /* center the row */
-  margin-top: 2rem;      /* space above gallery */
+  display: grid;                         /* use grid instead of flex */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;                             /* spacing between images */
+  margin-top: 2rem;
 }
 
 .project__gallery img {
-  width: 300px;          /* or whatever large size you want */
-  height: auto;          /* keep aspect ratio */
+  width: 100%;                           /* take full width of grid cell */
+  height: auto;                          /* maintain aspect ratio */
   border-radius: 0.5rem;
   display: block;
 }
