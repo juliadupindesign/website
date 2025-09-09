@@ -590,9 +590,20 @@ textarea.contact__input {
   line-height: 1.5;
 }
 
+.project__links {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.project__links em {
+  font-style: italic;
+  display: block;   /* each link on its own line */
+}
+
+/* Optional: if you wrap links in <a> inside <p> */
 .project__links p a {
   text-decoration: underline;
-  color: #555;           /* optional: make links slightly muted */
+  color: #555;     /* optional: muted color */
 }
 
 .project__type {
