@@ -262,7 +262,11 @@ function setLanguage(lang) {
 	  if (Array.isArray(value) && value.length) {
 	    if (el.classList.contains("project__links")) {
 		  // inline instead of stacked
-		  el.innerHTML = value.map(v => `<em>${v}</em>`).join(' · '); // separator dot
+		  if (value.length > 0) {
+		    el.innerHTML = `Text: ` + value.join(' · ');
+		  } else {
+		    el.innerHTML = ""; // hide if no links
+		  }
 	    } else if (el.classList.contains("project__intro")) {
 	      // Wrap each intro line in <p> for CSS
 	      el.innerHTML = value.map(v => `<p>${v}</p>`).join('');
