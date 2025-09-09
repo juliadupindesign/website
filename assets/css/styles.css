@@ -99,8 +99,10 @@ img {
 }
 
 .section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 6rem;       /* space from top */
+  padding-bottom: 3rem;    /* space below section */
+  padding-left: 1rem;      /* breathing room on the left */
+  padding-right: 1rem;     /* breathing room on the right */
 }
 
 /*===== LAYOUT =====*/
