@@ -38,7 +38,7 @@ const translations = {
         ],
         links: [
 			'<a href="https://cnes.fr/actualites/idefix-passage-de-relai-japon" target="_blank">CNES article on IDEFIX</a>',
-			'<a href="https://cnes.fr/projets/mmx" target="_blank">CNES MMX mission page</a>
+			'<a href="https://cnes.fr/projets/mmx" target="_blank">CNES MMX mission page</a>'
           ],
         type: "Personal project"
       },
@@ -70,12 +70,12 @@ const translations = {
         intro: [
 			"This is one of two scientific posters that resulted from the my postdoctoral MSCA project named Fruitful.",
 			"The idea was to present this poster to the general public and use them as extra material to explain differences in fruit types.",
-			"This Evolutionary Biology project tlasted from 2019 to 2022"
+			"This Evolutionary Biology project lasted from 2019 to 2022"
 		],
         links: [
 			'<a href="https://cordis.europa.eu/project/id/842234" target="_blank">Fruitful research project description</a>'
 		],
-        type: "Comissionned work"
+        type: "Commissioned work"
       },
 	  seeddispersal: {
         title: "Seed dispersal poster",
@@ -87,7 +87,7 @@ const translations = {
         links: [
 			'<a href="https://cordis.europa.eu/project/id/842234" target="_blank">Fruitful research project description</a>'
 		],
-        type: "Comissionned work"
+        type: "Commissioned work"
       },
 	  lard: {
         title: "LARD group logo",
@@ -96,7 +96,7 @@ const translations = {
 			"This logo (which will be used exclusively for internal communication) is a play between the group's acronym and its goal, assess landing sites for a space rover."
 		],
         links: [],   // empty array if no links
-        type: "Comissionned work"
+        type: "Commissioned work"
       },
 	  unepatte: {
         title: "Animal shelter logo",
