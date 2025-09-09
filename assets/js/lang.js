@@ -255,19 +255,27 @@ function getNestedTranslation(obj, keyString) {
 
 // 2. Apply translations
 function setLanguage(lang) {
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    const value = getNestedTranslation(translations[lang], key);
-
-    if (value) {
-      // If value is an array, join with <br> for paragraphs
-      if (Array.isArray(value)) {
-        el.innerHTML = value.join('<br><br>');
-      } else {
-        el.innerHTML = value;
-      }
-    }
-  });
+	document.querySelectorAll("[data-i18n]").forEach(el => {
+	  const key = el.getAttribute("data-i18n");
+	  const value = getNestedTranslation(translations[lang], key);
+	
+	  if (Array.isArray(value) && value.length) {
+	    if (el.classList.contains("project__links")) {
+	      // Wrap each link in <em> for CSS
+	      el.innerHTML = value.map(v => `<em>${v}</em>`).join('');
+	    } else if (el.classList.contains("project__intro")) {
+	      // Wrap each intro line in <p> for CSS
+	      el.innerHTML = value.map(v => `<p>${v}</p>`).join('');
+	    } else {
+	      // Fallback for any other array
+	      el.innerHTML = value.join('<br>');
+	    }
+	  } else if (value) {
+	    el.innerHTML = value;
+	  } else {
+	    el.innerHTML = '';
+	  }
+	});
 
   // Placeholders
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
