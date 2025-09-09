@@ -12,8 +12,10 @@ const translations = {
     welcome: "Hi,<br>I'm <span class='home__title-color'>Julia</span><br> Graphic Designer",
     contactButton: "Contact",
     aboutSubtitle: "I'm Julia",
-    aboutText: "I'm a freelance graphic designer based in Toulouse, creating print and digital materials for museums, nonprofits, and public institutions. Posters, visual identities, programs, brochures, and more — I help you inform, engage, and reach your audience through clear and thoughtful design.\n\nI have a PhD in Ecology and Evolutionary Biology, a Professional Certificate in Museology, and specialized training in Data Science and Graphic Design, allowing me to combine scientific insight with creative communication for impactful results.",
-    skillsSubtitle: "Professional Skills",
+    aboutText: `
+      <p>I'm a freelance graphic designer based in Toulouse, creating print and digital materials for museums, nonprofits, and public institutions. Posters, visual identities, programs, brochures, and more — I help you inform, engage, and reach your audience through clear and thoughtful design.</p>
+      <p>I have a PhD in Ecology and Evolutionary Biology, a Professional Certificate in Museology, and specialized training in Data Science and Graphic Design, allowing me to combine scientific insight with creative communication for impactful results.</p>
+    `,
     skillsText: `
       <ul class="skills-list">
         <li>🎨 Vector Graphics (Inkscape, Adobe Illustrator)</li>
