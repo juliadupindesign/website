@@ -595,6 +595,7 @@ textarea.contact__input {
 }
 
 .project__links {
+  font-style: italic;
   text-align: left;
   margin-bottom: 1rem;
   font-size: 0.9rem;   /* smaller font for everything inside */
@@ -608,15 +609,16 @@ textarea.contact__input {
 }
 
 .project__links p a {
+  font-style: italic;
   text-decoration: underline;
-  color: #6a1b9a;     /* purple shade for links */
+  color: #800080;     /* purple shade for links */
 }
 
-.project__type {
-  display: block;        /* ensure it spans the container */
-  width: 100%;           /* force full line */
-  text-align: right;  !important;     /* align text */
-  font-style: italic;
+.project p.project__type {
+  display: block;       /* ensure it spans the container */
+  width: 100%;          /* full width */
+  text-align: right;    /* align text to the right */
+  font-style: italic;   /* keep italic style */
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
