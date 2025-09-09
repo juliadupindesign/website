@@ -31,21 +31,24 @@ const translations = {
     submit: "Send",
     projects: {
       idefix: {
-        title: "Idefix rover (personal project)",
+        title: "Idefix rover",
         intro: [
           "A brochure to complement an exhibition about the IDEFIX rover.",
-          "This brochure has an interactive aspect: once one starts opening the brochure, one incidentally helps IDEFIX open its solar panels.", 
-          "Text from:",
-          "<em>https://cnes.fr/actualites/idefix-passage-de-relai-japon</em>",
-          "<em>https://cnes.fr/projets/mmx</em>"
-          ]
+          "This brochure has an interactive aspect: once one starts opening the brochure, one incidentally helps IDEFIX open its solar panels."
+        ],
+        links: [
+          "https://cnes.fr/actualites/idefix-passage-de-relai-japon",
+          "https://cnes.fr/projets/mmx</"
+          ],
+        type: "Personal project"
       },
       greenhouse: {
         title: "Greenhouse Project",
         intro: "Short introduction for Greenhouse...",
-        more: "More details about Greenhouse..."
-  }
-}
+        links: "More details about Greenhouse...",
+        type: "Personal project"
+      }
+    }
   },
   fr: {
     title: "Site web portfolio complet",
