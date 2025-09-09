@@ -257,17 +257,15 @@ function getNestedTranslation(obj, keyString) {
 function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
-    let value = getNestedTranslation(translations[lang], key);
+    const value = getNestedTranslation(translations[lang], key);
 
-    if (Array.isArray(value)) {
-      // Render links in the project__links element
-      if (el.classList.contains("project__links")) {
-        el.innerHTML = value.join('<br>'); // use HTML inside array for links
+    if (value) {
+      // If value is an array, join with <br> for paragraphs
+      if (Array.isArray(value)) {
+        el.innerHTML = value.join('<br><br>');
       } else {
-        el.innerHTML = value.join('<br>'); // intro or other arrays
+        el.innerHTML = value;
       }
-    } else if (value) {
-      el.innerHTML = value;
     }
   });
 
@@ -287,6 +285,7 @@ function setLanguage(lang) {
 
   localStorage.setItem("lang", lang);
 }
+
 
 // 3. Load saved language or default to EN
 document.addEventListener("DOMContentLoaded", () => {
