@@ -561,15 +561,15 @@ textarea.contact__input {
 }
 
 .project__gallery {
-  display: grid;                         /* use grid instead of flex */
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;                             /* spacing between images */
+  display: block;         /* stack items vertically */
   margin-top: 2rem;
 }
 
 .project__gallery img {
-  width: 100%;                           /* take full width of grid cell */
-  height: auto;                          /* maintain aspect ratio */
+  width: 100%;            /* take full container width */
+  max-width: 800px;       /* optional: limit so it doesn’t get too wide */
+  height: auto;           /* keep proportions */
   border-radius: 0.5rem;
   display: block;
+  margin: 0 auto 2rem;    /* center images & add space below each */
 }
