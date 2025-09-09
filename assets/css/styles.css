@@ -576,7 +576,7 @@ textarea.contact__input {
 
 .project__gallery img {
   width: 100%;            /* take full container width */
-  max-width: 800px;       /* optional: limit so it doesn’t get too wide */
+  max-width: 900px;       /* optional: limit so it doesn’t get too wide */
   height: auto;           /* keep proportions */
   border-radius: 0.5rem;
   display: block;
@@ -610,7 +610,7 @@ textarea.contact__input {
 .project__type {
   display: block;        /* ensure it spans the container */
   width: 100%;           /* force full line */
-  text-align: right;     /* align text */
+  text-align: right;  !important;     /* align text */
   font-style: italic;
   margin-top: 1rem;
   margin-bottom: 2rem;
