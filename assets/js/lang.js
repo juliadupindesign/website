@@ -261,8 +261,8 @@ function setLanguage(lang) {
 	
 	  if (Array.isArray(value) && value.length) {
 	    if (el.classList.contains("project__links")) {
-	      // Wrap each link in <em> for CSS
-	      el.innerHTML = value.map(v => `<em>${v}</em>`).join('');
+		  // inline instead of stacked
+		  el.innerHTML = value.map(v => `<em>${v}</em>`).join(' · '); // separator dot
 	    } else if (el.classList.contains("project__intro")) {
 	      // Wrap each intro line in <p> for CSS
 	      el.innerHTML = value.map(v => `<p>${v}</p>`).join('');
