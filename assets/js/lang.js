@@ -132,7 +132,7 @@ const translations = {
     contactButton: "Contact",
     aboutSubtitle: "Je suis Julia",
 	aboutText: `
-	  <p>Je suis graphiste indépendante basée à Toulouse, spécialisée dans la création de supports imprimés et numériques pour les musées, associations et institutions publiques. Affiches, identités visuelles, programmes, brochures, et plus encore — je vous aide à informer, engager et atteindre votre public grâce à un design clair et réfléchi.</p>
+	  <p>Je suis graphiste indépendante basée à Toulouse, spécialisée dans la création de supports imprimés et numériques pour les musées, associations et institutions publiques. Affiches, identités visuelles, programmes, dépliants, et plus encore — je vous aide à informer, engager et atteindre votre public grâce à un design clair et réfléchi.</p>
 	  <p>Je possède un doctorat en écologie et biologie évolutive, un certificat professionnel en muséologie, ainsi qu’une formation spécialisée en Data Science et en design graphique, ce qui me permet de combiner expertise scientifique et communication créative pour des résultats percutants.</p>
 	`,
 	skillsText: `
@@ -150,10 +150,10 @@ const translations = {
     submit: "Envoyer",
     projects: {
 		idefix: {
-		  title: "Brochure du rover IDEFIX",
+		  title: "Dépliant du rover IDEFIX",
 		  intro: [
-			"Une brochure pour compléter une exposition sur le rover IDEFIX.",
-			"Cette brochure a un aspect interactif : lorsqu'on commence à l’ouvrir, on aide par inadvertance IDEFIX à déployer ses panneaux solaires."
+			"Un dépliant pour compléter une exposition sur le rover IDEFIX.",
+			"Ce dépliant a un aspect interactif : lorsqu'on commence à l’ouvrir, on aide par inadvertance IDEFIX à déployer ses panneaux solaires."
 		  ],
 		  links: [
 			'<a href="https://cnes.fr/actualites/idefix-passage-de-relai-japon" target="_blank">Article CNES sur IDEFIX</a>',
@@ -163,10 +163,10 @@ const translations = {
 		},
 
 		greenhouse: {
-		  title: "Brochure serre de plantes carnivores",
+		  title: "Dépliant serre de plantes carnivores",
 		  intro: [
-			"L'idée de cette brochure est née après une visite des serres du Muséum d'Histoire Naturelle de Toulouse.",
-			"La variété des plantes de la serre méritait une brochure que le visiteur pourrait emporter, avec des informations supplémentaires sur tous les genres de plantes.",
+			"L'idée de ce dépliant est née après une visite des serres du Muséum d'Histoire Naturelle de Toulouse.",
+			"La variété des plantes de la serre méritait un dépliant que le visiteur pourrait emporter, avec des informations supplémentaires sur tous les genres de plantes.",
 			"Mon background en biologie, et plus particulièrement en botanique, a rendu ce projet très cher à mon cœur."
 		  ],
 		  links: [
@@ -177,11 +177,11 @@ const translations = {
 		},
 
 		graines: {
-		  title: "Bannière sur la dispersion des graines",
+		  title: "Kakemono sur la dispersion des graines",
 		  intro: [
-			"Ceci est une réinterprétation d'une bannière pour une exposition itinérante (nommée Graines voyageuses au long cours) développée par le Muséum d'Histoire Naturelle de Toulouse.",
+			"Ceci est une réinterprétation d'un kakemono pour une exposition itinérante (nommée Graines voyageuses au long cours) développée par le Muséum d'Histoire Naturelle de Toulouse.",
 			"J'ai utilisé de nombreuses images libres disponibles sur Wikimedia provenant des collections du Muséum.",
-			"Ces images ont été intégrées dans la bannière et ont également permis de développer la palette de couleurs de l'ensemble du travail."
+			"Ces images ont été intégrées dans le kakemono et ont également permis de développer la palette de couleurs de l'ensemble du travail."
 		  ],
 		  links: [],
 		  type: "Projet personnel"
