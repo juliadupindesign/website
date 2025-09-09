@@ -318,6 +318,10 @@ img {
 .skills__img {
   border-radius: 0.5rem;
 }
+.skills-list li {
+  margin-bottom: 0.6rem;  /* extra space between list items */
+  line-height: 1.5;       /* improves readability */
+}
 
 /* ===== WORK =====*/
 .work__container {
