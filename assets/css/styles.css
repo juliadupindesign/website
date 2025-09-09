@@ -52,8 +52,13 @@ body {
   color: var(--second-color);
 }
 
-h1, h2, p {
+h1, h2 {
   margin: 0;
+}
+
+p {
+  margin: 0 0 0.75rem 0; /* only add bottom spacing */
+  line-height: 1.6;      /* better readability */
 }
 
 ul {
@@ -557,9 +562,9 @@ textarea.contact__input {
 
 .project p {
   text-align: left;
-  line-height: 1.5;
-  margin-bottom: 2rem;       /* space below text before images */
-  white-space: pre-line;     /* preserves single line breaks */
+  line-height: 1.6;
+  margin-bottom: 1rem;   /* consistent but not too big */
+  white-space: pre-line;
 }
 
 .project__gallery {
