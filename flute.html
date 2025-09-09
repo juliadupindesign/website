@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title data-i18n="projects.flute.title"></title>
+  </head>
+  <body>
+    <!-- ===== LANGUAGE SWITCHER ===== -->
+    <div class="language-switcher">
+      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="setLanguage('fr')">FR</button>
+    </div>
+  
+    <!-- ===== HEADER ===== -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="index.html" class="nav__logo" data-i18n="logo"></a>
+        </div>
+  
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html#home" class="nav__link" data-i18n="home">Home</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link" data-i18n="about">About</a></li>
+            <li class="nav__item"><a href="index.html#skills" class="nav__link" data-i18n="skills">Skills</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link" data-i18n="work">Work</a></li>
+            <li class="nav__item"><a href="index.html#contact" class="nav__link" data-i18n="contact">Contact</a></li>
+          </ul>
+        </div>
+  
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+      </nav>
+    </header>
+  
+    <!-- ===== PROJECT CONTENT ===== -->
+    <main class="l-main">
+      <section class="project section">
+        <h2 class="section-title" data-i18n="projects.flute.title"></h2>
+  
+        <!-- Intro -->
+        <div class="project__intro" data-i18n="projects.flute.intro"></div>
+
+        <!-- Links -->
+        <div class="project__links" data-i18n="projects.flute.links"></div>
+
+        <!-- Type -->
+        <p class="project__type" data-i18n="projects.flute.type"></p>
+  
+        <!-- Gallery -->
+        <div class="project__gallery bd-grid">
+          <img src="assets/img/flute_logo.png" alt="Flute gazouillante logo">
+          <img src="assets/img/flute_flyers.png" alt="Flute gazouillante flyers">
+          <img src="assets/img/flute_businesscard.png" alt="Flute gazouillante business card">
+        </div>
+      </section>
+    </main>
+  
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <p class="footer__title" data-i18n="logo"></p>
+      <div class="footer__social">
+          <a href="https://www.linkedin.com/in/juliadupin/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://www.behance.net/juliadupin" target="_blank" class="footer__icon"><i class='bx bxl-behance' ></i></a>
+          <a href="https://www.instagram.com/julia.dupin.design/" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/lang.js"></script>
+  </body>
+</html>
