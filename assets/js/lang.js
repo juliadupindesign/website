@@ -13,7 +13,7 @@ const translations = {
     contactButton: "Contact",
     aboutSubtitle: "I'm Julia",
     aboutText: `
-      <p>I'm a freelance graphic designer based in Toulouse, creating print and digital materials for museums, nonprofits, and public institutions. Posters, visual identities, programs, brochures, and more — I help you inform, engage, and reach your audience through clear and thoughtful design.</p>
+      <p>independent graphic designer based in Toulouse, working with museums, cultural institutions, and associations. I design print and digital materials—exhibition graphics, educational panels, posters, brochures, and programs—that help you share your message clearly, inspire curiosity, and connect with your audience through engaging, thoughtful design.</p>
       <p>I have a PhD in Ecology and Evolutionary Biology, a Professional Certificate in Museology, and specialized training in Data Science and Graphic Design, allowing me to combine scientific insight with creative communication for impactful results.</p>
     `,
     skillsText: `
@@ -132,8 +132,8 @@ const translations = {
     contactButton: "Contact",
     aboutSubtitle: "Je suis Julia",
 	aboutText: `
-	  <p>Je suis graphiste indépendante basée à Toulouse, spécialisée dans la création de supports imprimés et numériques pour les musées, associations et institutions publiques. Affiches, identités visuelles, programmes, dépliants, et plus encore — je vous aide à informer, engager et atteindre votre public grâce à un design clair et réfléchi.</p>
-	  <p>Je possède un doctorat en écologie et biologie évolutive, un certificat professionnel en muséologie, ainsi qu’une formation spécialisée en Data Science et en design graphique, ce qui me permet de combiner expertise scientifique et communication créative pour des résultats percutants.</p>
+	  <p>Graphiste indépendante basée à Toulouse, je conçois des supports imprimés et numériques pour musées, institutions culturelles et associations. Expositions, panneaux pédagogiques, affiches, dépliants, programmes… Je vous aide à informer, sensibiliser et captiver votre public grâce à un design réfléchi et attractif.</p>
+	  <p>J'ai un doctorat en écologie et biologie évolutive, un certificat professionnel en muséologie, ainsi qu’une formation spécialisée en Data Science et en design graphique, ce qui me permet de combiner expertise scientifique et communication créative pour des résultats percutants.</p>
 	`,
 	skillsText: `
 	  <ul class="skills-list">
