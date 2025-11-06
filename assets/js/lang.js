@@ -30,6 +30,16 @@ const translations = {
     labelMessage: "Message",
     submit: "Send",
     projects: {
+      fruitexpo: {
+          title: "Exhibit on fruit types",
+          intro: [
+            "An exhibit I designed entirely - from content to all graphic design to making the 1:24 model.",
+            "This exhibit about fruits - what they are, different types, curious details - was designed for 5x7m space with 2.5m of ceiling height."
+		    "Every detail of the model was made by hand."
+          ],
+          links: [],
+          type: "Personal project"
+      },
       idefix: {
         title: "Idefix rover brochure",
         intro: [
@@ -149,6 +159,16 @@ const translations = {
     labelMessage: "Message",
     submit: "Envoyer",
     projects: {
+      fruitexpo: {
+          title: "Exposition sur les types de fruits",
+          intro: [
+            "Une exposition que j'ai entièrement conçue, du contenu à la conception graphique, en passant par la réalisation de la maquette à l'échelle 1:24.",
+            "Cette exposition sur les fruits (ce qu'ils sont, les différents types, des détails curieux) a été conçue pour un espace de 5 x 7 m avec une hauteur sous plafond de 2,5 m."
+		    "Chaque détail de la maquette a été réalisé à la main."
+          ],
+          links: [],
+          type: "Projet personnel"
+      },		
 		idefix: {
 		  title: "Dépliant du rover IDEFIX",
 		  intro: [
