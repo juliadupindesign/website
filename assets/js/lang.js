@@ -30,6 +30,20 @@ const translations = {
     labelMessage: "Message",
     submit: "Send",
     projects: {
+      jwst: {
+          title: "Intro wall panels for exhibit on JWST",
+          intro: [
+            "Walls panels for the entrance of an exhibit about the James Webb Space Telescope (JWST).",
+            "These panels were designed for a space with a 2.5m ceiling.",
+		    "The left panel is a design based on an image captured by JWST. JWST captured this sparkling scene of star birth in Pismis 24, a young star cluster about 5,500 light-years from Earth in the constellation Scorpius. Credits: Image: NASA, ESA, CSA, STScI; Image Processing: Alyssa Pagan (STScI)",
+			"The right panel has its main color, yellow, to resemble the color of the panels on the actual telescope. Besides the exhibit name, it holds the introduction text to the exhibit."
+          ],
+          links: [
+			'<a href="https://science.nasa.gov/missions/webb/glittering-glimpse-of-star-birth-from-nasas-webb-telescope/" target="_blank">NASA article about this image</a>',
+			'<a href="https://science.nasa.gov/mission/webb/" target="_blank">NASA website on JWST</a>'
+		  ],
+          type: "Personal project"
+		},
       fruitexpo: {
           title: "Exhibit on fruit types",
           intro: [
@@ -159,6 +173,20 @@ const translations = {
     labelMessage: "Message",
     submit: "Envoyer",
     projects: {
+      jwst: {
+          title: "Panneaux muraux d’introduction pour une exposition sur le JWST",
+          intro: [
+            "Panneaux muraux pour l’entrée d’une exposition sur le télescope spatial James Webb (JWST).",
+            "Ces panneaux ont été conçus pour un espace avec un plafond de 2,5 m.",
+		    "Le panneau de gauche est un design basé sur une image capturée par le JWST. Le JWST a capturé cette scène scintillante de naissance d’étoiles dans Pismis 24, un jeune amas d’étoiles situé à environ 5 500 années-lumière de la Terre dans la constellation du Scorpion. Crédits : Image : NASA, ESA, CSA, STScI ; traitement de l’image : Alyssa Pagan (STScI).",
+			"Le panneau de droite a pour couleur principale le jaune, afin de rappeler la couleur des panneaux du télescope réel. En plus du titre de l’exposition, il contient le texte d’introduction à l’exposition."
+          ],
+          links: [
+			'<a href="https://science.nasa.gov/missions/webb/glittering-glimpse-of-star-birth-from-nasas-webb-telescope/" target="_blank">Article de la NASA sur cette image</a>',
+			'<a href="https://science.nasa.gov/mission/webb/" target="_blank">Site de la NASA sur le JWST</a>'
+		  ],
+          type: "Projet personnel"
+      },
       fruitexpo: {
           title: "Exposition sur les types de fruits",
           intro: [
