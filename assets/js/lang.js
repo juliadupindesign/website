@@ -13,7 +13,7 @@ const translations = {
     contactButton: "Contact",
     aboutSubtitle: "I'm Julia",
     aboutText: `
-      <p>An independent graphic designer based in Toulouse, I design print and digital materials as well as graphic elements for exhibitions for museums, cultural institutions, and associations. Exhibitions, educational panels, posters, brochures, programs… I help you inform, engage, and inspire your audience through thoughtful, attractive design tailored to the visitor’s experience.</p>
+      <p>An independent graphic designer based in Toulouse, I design print and digital materials, from exhibition graphics to editorial and institutional communication, for museums, cultural institutions, local authorities, and associations. Exhibitions, educational panels, posters, brochures, programs, magazines, newsletters, etc. I help you inform, engage, and inspire your audience through thoughtful, attractive design tailored to the context and the reader.</p>
       <p>With a PhD in Ecology and Evolutionary Biology and a professional certificate in Museum Studies, I have gained solid experience in scientific outreach and public engagement during my years of research. Trained in both data science and graphic design, I combine scientific expertise, pedagogical insight, and visual creativity to design exhibitions and communication materials that make knowledge accessible and engaging.</p>
     `,
     skillsText: `
@@ -182,7 +182,7 @@ const translations = {
     contactButton: "Contact",
     aboutSubtitle: "Je suis Julia",
 	aboutText: `
-	  <p>Graphiste indépendante basée à Toulouse, je conçois des supports imprimés et numériques ainsi que des dispositifs graphiques pour les expositions destinés aux musées, institutions culturelles et associations. Expositions, panneaux pédagogiques, affiches, dépliants, programmes… Je vous aide à informer, sensibiliser et captiver votre public grâce à un design réfléchi, attractif et adapté aux parcours de visite.</p>
+	  <p>Graphiste indépendante basée à Toulouse, je conçois des supports imprimés et numériques, des dispositifs graphiques d'exposition à la communication éditoriale et institutionnelle, pour les musées, institutions culturelles, collectivités et associations. Expositions, panneaux pédagogiques, affiches, dépliants, programmes, bulletins, etc. Je vous aide à informer, sensibiliser et captiver votre public grâce à un design réfléchi, attractif et adapté au contexte et au lecteur.</p>
 	  <p>Docteure en écologie et biologie évolutive, titulaire d’un certificat professionnel en muséologie, j’ai acquis une solide expérience en médiation et valorisation scientifique au cours de mes années de recherche. Formée à la fois en data science et en design graphique, je combine expertise scientifique, sens pédagogique et créativité visuelle pour concevoir des expositions et supports qui rendent les savoirs accessibles et engageants.</p>
 	`,
 	skillsText: `
