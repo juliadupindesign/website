@@ -30,6 +30,32 @@ const translations = {
     labelMessage: "Message",
     submit: "Send",
     projects: {
+      magazinescience: {
+          title: "Botanical science magazine issue",
+          intro: [
+            "A personal project to design a full magazine issue centered on botanical science, aimed at a general audience.",
+            "Format: 195×275mm, 24 pages.",
+            "The issue includes a cover, a table of contents spread, a four-page feature article, two-page articles, interview spreads, a practical information section, each requiring a distinct layout approach while maintaining a consistent visual identity throughout.",
+            "This project was an exercise in sustaining a coherent editorial system across varied content types and page lengths, from long-form features to short-format sections."
+          ],
+          links: [
+			'<a href="https://www.calameo.com/books/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Read the full 24-page issue</a>'
+		  ],
+          type: "Personal project"
+		},
+      magazinemunicipal: {
+          title: "Municipal bulletin mock-up",
+          intro: [
+            "A personal project simulating one full issue of a municipal bulletin for a fictional town.",
+            "Format: 170×231mm, 24 pages.",
+            "The issue reproduces the typical structure of a periodic municipal publication: cover, table of contents, articles on local topics, interviews, events agenda.",
+            "This project was designed as a demonstration of editorial layout skills applicable to recurring institutional communication, such as a town's periodic bulletin."
+          ],
+          links: [
+			'<a href="https://www.calameo.com/books/0082661313a48e65ec5e6?authid=AS1rCq92q3K6" target="_blank">Read the full 24-page issue</a>'
+		  ],
+          type: "Personal project"
+		},
       jwst: {
           title: "Intro wall panels for exhibit on JWST",
           intro: [
