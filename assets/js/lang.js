@@ -199,6 +199,32 @@ const translations = {
     labelMessage: "Message",
     submit: "Envoyer",
     projects: {
+      magazinescience: {
+          title: "Numéro de magazine de vulgarisation botanique",
+          intro: [
+        	"Un projet personnel de conception d'un numéro complet de magazine consacré à la vulgarisation botanique, destiné à un large public.",
+        	"Format : 195×275mm, 24 pages.",
+        	"Le numéro comprend une couverture, un sommaire, un article de fond sur quatre pages, un article plus court sur deux pages, une interview, ainsi qu'une rubrique d'informations pratiques, chacun nécessitant une mise en page distincte tout en conservant une identité visuelle cohérente.",
+        	"Ce projet a été l'occasion de maintenir un système éditorial cohérent à travers des contenus variés et des formats de longueur différente, du grand format au format court."
+          ],
+          links: [
+			'<a href="https://www.calameo.com/books/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Read the full 24-page issue</a>'
+		  ],
+          type: "Projet personnel"
+		},
+      magazinemunicipal: {
+          title: "Maquette de bulletin municipal",
+          intro: [
+        	"Un projet personnel simulant un numéro complet de bulletin municipal pour une commune fictive.",
+        	"Format : 170×231mm, 24 pages.",
+        	"Le numéro reproduit la structure habituelle d'une publication municipale périodique : couverture, sommaire, articles sur des sujets locaux, une interview et un agenda des événements.",
+        	"Ce projet a été conçu comme une démonstration de compétences en mise en page éditoriale applicables à une communication institutionnelle récurrente, telle qu'un bulletin municipal périodique."
+          ],
+          links: [
+			'<a href="https://www.calameo.com/books/0082661313a48e65ec5e6?authid=AS1rCq92q3K6" target="_blank">Read the full 24-page issue</a>'
+		  ],
+          type: "Projet personnel"
+		},
       jwst: {
           title: "Panneaux muraux d’introduction pour une exposition sur le JWST",
           intro: [
