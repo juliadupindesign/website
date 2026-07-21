@@ -18,11 +18,11 @@ const translations = {
     `,
     skillsText: `
       <ul class="skills-list">
-        <li>🎨 Vector Graphics (Inkscape, Adobe Illustrator)</li>
-        <li>🖌️ Image Editing (GIMP, Adobe Photoshop)</li>
-        <li>📐 Layout & Typography (Scribus, Canva)</li>
-        <li>💻 Programming & Data (Python, R programming, Git (GitHub))</li>
-        <li>💡 Soft skills: creativity, professionalism, mentoring/supervision, professional communication, organization, teamwork, independence, problem solving, empathy and active listening, time management</li>
+        <li>📐 Layout & Typography (Adobe InDesign, Scribus, Canva)</li>
+        <li>🎨 Vector Graphics (Adobe Illustrator, Inkscape)</li>
+        <li>🖌️ Image Editing (Adobe Photoshop, GIMP)</li>
+        <li>💻 Programming & Data (Python, R, Git/GitHub)</li>
+        <li>💡 Approach: editorial rigor, independence, clear client communication, ease with complex content</li>
       </ul>
     `,
     labelName: "Name",
@@ -187,11 +187,11 @@ const translations = {
 	`,
 	skillsText: `
 	  <ul class="skills-list">
-		<li>🎨 Graphisme vectoriel (Inkscape, Adobe Illustrator)</li>
-		<li>🖌️ Retouche d’images (GIMP, Adobe Photoshop)</li>
-		<li>📐 Mise en page et typographie (Scribus, Canva)</li>
-		<li>💻 Programmation et données (Python, R programming, Git (GitHub))</li>
-		<li>💡 Compétences transversales : créativité, professionnalisme, mentorat/supervision, communication professionnelle, organisation, travail en équipe, autonomie, résolution de problèmes, empathie et écoute active, gestion du temps</li>
+		<li>📐 Mise en page et typographie (Adobe InDesign, Scribus, Canva)</li>
+		<li>🎨 Graphisme vectoriel (Adobe Illustrator, Inkscape)</li>
+		<li>🖌️ Retouche d'images (Adobe Photoshop, GIMP)</li>
+		<li>💻 Programmation et données (Python, R, Git/GitHub)</li>
+		<li>💡 Approche : rigueur éditoriale, autonomie, communication claire avec les clients, aisance avec des contenus complexes</li>
 	  </ul>
 	`,
     labelName: "Nom",
