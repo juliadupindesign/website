@@ -204,11 +204,11 @@ const translations = {
           intro: [
         	"Un projet personnel de conception d'un numéro complet de magazine consacré à la vulgarisation botanique, destiné à un large public.",
         	"Format : 195×275mm, 24 pages.",
-        	"Le numéro comprend une couverture, un sommaire, un article de fond sur quatre pages, un article plus court sur deux pages, une interview, ainsi qu'une rubrique d'informations pratiques, chacun nécessitant une mise en page distincte tout en conservant une identité visuelle cohérente.",
+        	"Le numéro comprend : couverture, sommaire, des articles courts sur deux pages, des articles de fond sur quatre pages, des interviews, ainsi qu'une rubrique d'informations pratiques, chacun nécessitant une mise en page distincte tout en conservant une identité visuelle cohérente.",
         	"Ce projet a été l'occasion de maintenir un système éditorial cohérent à travers des contenus variés et des formats de longueur différente, du grand format au format court."
           ],
           links: [
-			'<a href="https://www.calameo.com/books/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Read the full 24-page issue</a>'
+			'<a href="https://www.calameo.com/books/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Lisez le numéro complet de 24 pages</a>'
 		  ],
           type: "Projet personnel"
 		},
@@ -221,7 +221,7 @@ const translations = {
         	"Ce projet a été conçu comme une démonstration de compétences en mise en page éditoriale applicables à une communication institutionnelle récurrente, telle qu'un bulletin municipal périodique."
           ],
           links: [
-			'<a href="https://www.calameo.com/books/0082661313a48e65ec5e6?authid=AS1rCq92q3K6" target="_blank">Read the full 24-page issue</a>'
+			'<a href="https://www.calameo.com/books/0082661313a48e65ec5e6?authid=AS1rCq92q3K6" target="_blank">Lisez le numéro complet de 24 pages</a>'
 		  ],
           type: "Projet personnel"
 		},
@@ -363,7 +363,7 @@ function setLanguage(lang) {
 	    if (el.classList.contains("project__links")) {
 		  // inline instead of stacked
 		  if (value.length > 0) {
-		    el.innerHTML = `Text: ` + value.join(' · ');
+		    el.innerHTML = `Link: ` + value.join(' · ');
 		  } else {
 		    el.innerHTML = ""; // hide if no links
 		  }
