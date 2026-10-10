@@ -71,7 +71,7 @@ const translations = {
             "This project was an exercise in sustaining a coherent editorial system across varied content types and page lengths, from long-form features to short-format sections."
           ],
           links: [
-			'<a href="https://www.calameo.com/books/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Read the full 24-page issue</a>'
+			'<a href="https://www.calameo.com/read/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Read the full 24-page issue</a>'
 		  ],
           type: "Personal project"
 		},
@@ -94,9 +94,10 @@ const translations = {
       jwst: {
           title: "Intro wall panels for exhibit on JWST",
           intro: [
-            "Walls panels for the entrance of an exhibit about the James Webb Space Telescope (JWST).",
+            "Wall panels for the entrance of an exhibit about the James Webb Space Telescope (JWST).",
             "These panels were designed for a space with a 2.5m ceiling.",
-		    "The left panel is a design based on an image captured by JWST. JWST captured this sparkling scene of star birth in Pismis 24, a young star cluster about 5,500 light-years from Earth in the constellation Scorpius. Credits: Image: NASA, ESA, CSA, STScI; Image Processing: Alyssa Pagan (STScI)",
+		    "The left panel is a design based on an image captured by JWST.", 
+			"JWST captured this sparkling scene of star birth in Pismis 24, a young star cluster about 5,500 light-years from Earth in the constellation Scorpius. Credits: Image: NASA, ESA, CSA, STScI; Image Processing: Alyssa Pagan (STScI).",
 			"The right panel has its main color, yellow, to resemble the color of the panels on the actual telescope. Besides the exhibit name, it holds the introduction text to the exhibit."
           ],
           links: [
@@ -132,7 +133,7 @@ const translations = {
         intro: [
 			"The idea for this brochure came after a visit to the greenhouses at the Museum of natural history of Toulouse.",
 			"The variety of plants in the greenhouse deserved a brochure that the visitor could take with them with extra information on all different plant genera.",
-			"My background in biology, specifically botany, made this project very dear to me."
+			"My background in botany allowed me to write the scientific content myself."
 		],
         links: [
 			'<a href="https://museum.toulouse-metropole.fr/le-jardin-botanique/" target="_blank">Botanical garden</a>',
@@ -143,9 +144,9 @@ const translations = {
       graines: {
         title: "Seed dispersal banner",
         intro: [
-			"This is a reimagined design for a banner for a traveling exposition (named Graines voyageuses au long cours) developed by the Museum of natural history of Toulouse.",
+			"This is a reimagined design for a banner for a travelling exposition (named Graines voyageuses au long cours) developed by the Museum of natural history of Toulouse.",
 			"I used many of the freely available images at Wikimedia from the Museum collections.",
-			"This images became part of the banner and also allowed me to develop the color palette for this whole work."
+			"These images became part of the banner and also allowed me to develop the color palette for this whole work."
 		],
         links: [],   // empty array if no links
         type: "Personal project"
@@ -153,9 +154,9 @@ const translations = {
 	  fruitposter: {
         title: "Fruit types poster",
         intro: [
-			"This is one of two scientific posters that resulted from the my postdoctoral MSCA project named Fruitful.",
-			"The idea was to present this poster to the general public and use them as extra material to explain differences in fruit types.",
-			"This Evolutionary Biology project lasted from 2019 to 2022"
+			"This is one of two scientific posters that resulted from my postdoctoral MSCA project named Fruitful.",
+			"The idea was to present this poster to the general public and use it as extra material to explain differences in fruit types.",
+			"This Evolutionary Biology project lasted from 2019 to 2022."
 		],
         links: [
 			'<a href="https://cordis.europa.eu/project/id/842234" target="_blank">Fruitful research project description</a>'
@@ -165,9 +166,9 @@ const translations = {
 	  seeddispersal: {
         title: "Seed dispersal poster",
         intro: [
-			"This is the second scientific poster that resulted from the my postdoctoral MSCA project named Fruitful.",
-			"The idea was to present this poster to the general public and use them as extra material to explain the different ways seeds are dispersed.",
-			"This Evolutionary Biology project lasted from 2019 to 2022"
+			"This is the second scientific poster that resulted from my postdoctoral MSCA project named Fruitful.",
+			"The idea was to present this poster to the general public and use it as extra material to explain the different ways seeds are dispersed.",
+			"This Evolutionary Biology project lasted from 2019 to 2022."
 		],
         links: [
 			'<a href="https://cordis.europa.eu/project/id/842234" target="_blank">Fruitful research project description</a>'
@@ -188,8 +189,8 @@ const translations = {
         intro: [
 			"To develop my portfolio I contacted non-profit organizations with new propositions for their logos and associated images.",
 			"This organization works mostly with cats, and their current logo also had a drawing of a cat.", 
-			"My main goal was to simplify the logo, and I keep their original color palette.",
-			"This work was not implemented by the organization."
+			"My main goal was to simplify the logo, and I kept their original color palette.",
+			"Unsolicited proposal."
 		],
         links: [],   // empty array if no links
         type: "Personal project"
@@ -275,7 +276,7 @@ const translations = {
         	"Ce projet a été l'occasion de maintenir un système éditorial cohérent à travers des contenus variés et des formats de longueur différente, du grand format au format court."
           ],
           links: [
-			'<a href="https://www.calameo.com/books/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Lisez le numéro complet de 24 pages</a>'
+			'<a href="https://www.calameo.com/read/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Lisez le numéro complet de 24 pages</a>'
 		  ],
           type: "Projet personnel"
 		},
@@ -300,7 +301,8 @@ const translations = {
           intro: [
             "Panneaux muraux pour l’entrée d’une exposition sur le télescope spatial James Webb (JWST).",
             "Ces panneaux ont été conçus pour un espace avec un plafond de 2,5 m.",
-		    "Le panneau de gauche est un design basé sur une image capturée par le JWST. Le JWST a capturé cette scène scintillante de naissance d’étoiles dans Pismis 24, un jeune amas d’étoiles situé à environ 5 500 années-lumière de la Terre dans la constellation du Scorpion. Crédits : Image : NASA, ESA, CSA, STScI ; traitement de l’image : Alyssa Pagan (STScI).",
+		    "Le panneau de gauche est un design basé sur une image capturée par le JWST.",
+			"Le JWST a capturé cette scène scintillante de naissance d’étoiles dans Pismis 24, un jeune amas d’étoiles situé à environ 5 500 années-lumière de la Terre dans la constellation du Scorpion. Crédits : Image : NASA, ESA, CSA, STScI ; traitement de l’image : Alyssa Pagan (STScI).",
 			"Le panneau de droite a pour couleur principale le jaune, afin de rappeler la couleur des panneaux du télescope réel. En plus du titre de l’exposition, il contient le texte d’introduction à l’exposition."
           ],
           links: [
@@ -337,7 +339,7 @@ const translations = {
 		  intro: [
 			"L'idée de ce dépliant est née après une visite des serres du Muséum d'Histoire Naturelle de Toulouse.",
 			"La variété des plantes de la serre méritait un dépliant que le visiteur pourrait emporter, avec des informations supplémentaires sur tous les genres de plantes.",
-			"Mon background en biologie, et plus particulièrement en botanique, a rendu ce projet très cher à mon cœur."
+			"Ma formation en botanique m’a permis de concevoir moi-même le contenu scientifique du dépliant."
 		  ],
 		  links: [
 			'<a href="https://museum.toulouse-metropole.fr/le-jardin-botanique/" target="_blank">Jardin botanique</a>',
@@ -399,7 +401,7 @@ const translations = {
 			"Pour développer mon portfolio, j'ai contacté des associations à but non lucratif avec de nouvelles propositions pour leurs logos et images associées.",
 			"Cette organisation travaille principalement avec des chats, et leur logo actuel comportait également un dessin de chat.",
 			"Mon objectif principal était de simplifier le logo tout en conservant leur palette de couleurs originale.",
-			"Ce travail n'a pas été mis en œuvre par l'organisation."
+			"Proposition spontanée."
 		  ],
 		  links: [],
 		  type: "Projet personnel"
