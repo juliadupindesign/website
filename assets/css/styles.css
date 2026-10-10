@@ -356,6 +356,26 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+.work__category {
+  margin-bottom: 3rem;     /* space between categories */
+}
+.work__category:last-child {
+  margin-bottom: 0;
+}
+.work__category-title {
+  max-width: 1024px;       /* same width as the grid, so titles line up with the pictures */
+  margin: 0 var(--mb-2) 1rem;
+  color: var(--first-color);
+}
+.work__category .work__container {
+  padding-top: 0;
+}
+@media screen and (min-width: 1024px) {
+  .work__category-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /* ===== CONTACT =====*/
 .contact__input {
