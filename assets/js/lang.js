@@ -13,16 +13,44 @@ const translations = {
     contactButton: "Contact",
     aboutSubtitle: "I'm Julia",
     aboutText: `
-      <p>An independent graphic designer based in Toulouse, I design print and digital materials, from exhibition graphics to editorial and institutional communication, for museums, cultural institutions, local authorities, and associations. Exhibitions, educational panels, posters, brochures, programs, magazines, newsletters, etc. I help you inform, engage, and inspire your audience through thoughtful, attractive design tailored to the context and the reader.</p>
-      <p>With a PhD in Ecology and Evolutionary Biology and a professional certificate in Museum Studies, I have gained solid experience in scientific outreach and public engagement during my years of research. Trained in both data science and graphic design, I combine scientific expertise, pedagogical insight, and visual creativity to design exhibitions and communication materials that make knowledge accessible and engaging.</p>
+      <p>An independent graphic designer based in Toulouse, I design print and digital materials, including editorial and institutional communication, for local authorities, associations, and cultural institutions. Magazines, newsletters, programs, brochures, posters, educational panels etc. I help you inform, engage, and inspire your audience through thoughtful, attractive design tailored to the context and the reader.</p>
+      <p>With a PhD in Ecology and Evolutionary Biology and a professional certificate in Museum Studies, I have gained solid experience in scientific outreach and public engagement during my years of research. Trained in both data science and graphic design, I combine scientific expertise, pedagogical insight, and visual creativity to design communication materials that make information accessible and engaging.</p>
     `,
     skillsText: `
+      <h3 class="skills__group-title">Services:</h3>
+ 
+      <h4 class="skills__category">📐 Editorial Design & Layout</h4>
       <ul class="skills-list">
-        <li>📐 Layout & Typography (Adobe InDesign, Scribus, Canva)</li>
-        <li>🎨 Vector Graphics (Adobe Illustrator, Inkscape)</li>
-        <li>🖌️ Image Editing (Adobe Photoshop, GIMP)</li>
-        <li>💻 Programming & Data (Python, R, Git/GitHub)</li>
-        <li>💡 Approach: editorial rigor, independence, clear client communication, ease with complex content</li>
+        <li><strong>Editorial identity design:</strong> Defining the visual universe.</li>
+        <li><strong>Master layout (template) design:</strong> Creating the overall graphic structure, layout grid, typeface selection and styles for a recurring or complex document.</li>
+        <li><strong>Layout & production artwork:</strong> Integrating, aligning and harmonizing text, images and data within a document according to defined brand guidelines.</li>
+        <li><strong>Adapting designs across formats:</strong> Adapting an existing visual concept to different formats and dimensions.</li>
+      </ul>
+ 
+      <h4 class="skills__category">🎨 Image Processing & Picture Research</h4>
+      <ul class="skills-list">
+        <li><strong>Picture research:</strong> Selecting and sourcing visuals consistent with the project's editorial line.</li>
+        <li><strong>Image editing & retouching:</strong> Optimizing, clipping and calibrating visuals to ensure flawless print results.</li>
+      </ul>
+ 
+      <h4 class="skills__category">🖨️ Prepress & Print Production</h4>
+      <ul class="skills-list">
+        <li><strong>Prepress checking & optimization:</strong> Technical review of files before sending them to print (CMYK color profiles, 300 DPI image resolution, bleed and safety margins).</li>
+        <li><strong>Print production management & printer liaison:</strong> Technical guidance for clients on paper stocks and finishes, and management of the relationship with the printer.</li>
+      </ul>
+ 
+      <h3 class="skills__group-title">My Toolbox:</h3>
+      <ul class="skills-list">
+        <li><strong>Layout & Publishing:</strong> Adobe InDesign, Scribus, Canva</li>
+        <li><strong>Visual Design & Retouching:</strong> Adobe Illustrator, Adobe Photoshop, Inkscape, GIMP</li>
+        <li><strong>Programming & Data:</strong> Python, R, Git/GitHub</li>
+      </ul>
+ 
+      <h3 class="skills__group-title">My Approach:</h3>
+      <ul class="skills-list">
+        <li><strong>Editorial rigor:</strong> Meticulous attention to detail and strict adherence to brand guidelines.</li>
+        <li><strong>At ease with complexity:</strong> Able to structure and organize large volumes of text or dense data to make them readable and visually appealing.</li>
+        <li><strong>Clear communication:</strong> Transparent, educational support from the initial brief through to delivery at the printer.</li>
       </ul>
     `,
     labelName: "Name",
@@ -182,16 +210,44 @@ const translations = {
     contactButton: "Contact",
     aboutSubtitle: "Je suis Julia",
 	aboutText: `
-	  <p>Graphiste indépendante basée à Toulouse, je conçois des supports imprimés et numériques, des dispositifs graphiques d'exposition à la communication éditoriale et institutionnelle, pour les musées, institutions culturelles, collectivités et associations. Expositions, panneaux pédagogiques, affiches, dépliants, programmes, bulletins, etc. Je vous aide à informer, sensibiliser et captiver votre public grâce à un design réfléchi, attractif et adapté au contexte et au lecteur.</p>
-	  <p>Docteure en écologie et biologie évolutive, titulaire d’un certificat professionnel en muséologie, j’ai acquis une solide expérience en médiation et valorisation scientifique au cours de mes années de recherche. Formée à la fois en data science et en design graphique, je combine expertise scientifique, sens pédagogique et créativité visuelle pour concevoir des expositions et supports qui rendent les savoirs accessibles et engageants.</p>
+	  <p>Graphiste indépendante basée à Toulouse, je conçois des supports imprimés et numériques, de la communication éditoriale et institutionnelle, pour les collectivités, associations et institutions culturelles. Magazines, newsletters, programmes, dépliants, affiches, panneaux pédagogiques, etc. Je vous aide à informer, sensibiliser et captiver votre public grâce à un design réfléchi, attractif et adapté au contexte et au lecteur.</p>
+	  <p>Docteure en écologie et biologie évolutive, titulaire d’un certificat professionnel en muséologie, j’ai acquis une solide expérience en médiation et valorisation scientifique au cours de mes années de recherche. Formée à la fois en data science et en design graphique, je combine expertise scientifique, sens pédagogique et créativité visuelle pour concevoir des supports qui rendent les informations accessibles et engageants.</p>
 	`,
 	skillsText: `
+	  <h3 class="skills__group-title">Prestations :</h3>
+ 
+	  <h4 class="skills__category">📐 Conception Éditoriale & Mise en page</h4>
 	  <ul class="skills-list">
-		<li>📐 Mise en page et typographie (Adobe InDesign, Scribus, Canva)</li>
-		<li>🎨 Graphisme vectoriel (Adobe Illustrator, Inkscape)</li>
-		<li>🖌️ Retouche d'images (Adobe Photoshop, GIMP)</li>
-		<li>💻 Programmation et données (Python, R, Git/GitHub)</li>
-		<li>💡 Approche : rigueur éditoriale, autonomie, communication claire avec les clients, aisance avec des contenus complexes</li>
+		<li><strong>Création d'identité éditoriale :</strong> Définition de l'univers visuel.</li>
+		<li><strong>Conception de maquette de principe (ou gabarit) :</strong> Création de la structure graphique globale, de la grille de mise en page, du choix des typographies et des styles pour un document récurrent ou complexe.</li>
+		<li><strong>Mise en page et exécution graphique :</strong> Intégration, alignement et harmonisation des textes, des images et des données au sein d'un document selon une charte graphique définie.</li>
+		<li><strong>Déclinaison graphique de supports :</strong> Adaptation d'un concept visuel existant sur différents formats et dimensions.</li>
+	  </ul>
+ 
+	  <h4 class="skills__category">🎨 Traitement Visuel & Iconographie</h4>
+	  <ul class="skills-list">
+		<li><strong>Recherche iconographique :</strong> Sélection et sourcing de visuels cohérents avec la ligne éditoriale du projet.</li>
+		<li><strong>Traitement & Retouche d'images :</strong> Optimisation, détourage et calibrage des visuels pour garantir un rendu parfait à l'impression.</li>
+	  </ul>
+ 
+	  <h4 class="skills__category">🖨️ Technique Pré-presse & Suivi de Fabrication</h4>
+	  <ul class="skills-list">
+		<li><strong>Correction et optimisation pré-presse :</strong> Vérification technique des fichiers avant envoi (gestion des profils colorimétriques CMJN, résolution des images en 300 DPI, gestion des fonds perdus et des marges de sécurité).</li>
+		<li><strong>Suivi de fabrication et conseil imprimeur :</strong> Accompagnement technique du client dans le choix des papiers, des finitions et gestion de la relation avec l'imprimeur.</li>
+	  </ul>
+ 
+	  <h3 class="skills__group-title">Ma Boîte à Outils :</h3>
+	  <ul class="skills-list">
+		<li><strong>Mise en page & Édition :</strong> Adobe InDesign, Scribus, Canva</li>
+		<li><strong>Création Visuelle & Retouche :</strong> Adobe Illustrator, Adobe Photoshop, Inkscape, GIMP</li>
+		<li><strong>Programmation et données :</strong> Python, R, Git/GitHub</li>
+	  </ul>
+ 
+	  <h3 class="skills__group-title">Mon Approche :</h3>
+	  <ul class="skills-list">
+		<li><strong>Rigueur éditoriale :</strong> Une attention méticuleuse portée aux détails et au respect strict des chartes graphiques.</li>
+		<li><strong>Aisance face à la complexité :</strong> Capacité à structurer et ordonner de grands volumes de textes ou de données denses pour les rendre lisibles et esthétiques.</li>
+		<li><strong>Communication claire :</strong> Un accompagnement transparent et pédagogique du brief initial jusqu’à la livraison chez l'imprimeur.</li>
 	  </ul>
 	`,
     labelName: "Nom",
