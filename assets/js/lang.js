@@ -76,13 +76,16 @@ const translations = {
           type: "Personal project"
 		},
       magazinemunicipal: {
-          title: "Municipal bulletin mock-up",
+          title: "Municipal magazine mock-up",
           intro: [
-            "A personal project simulating one full issue of a municipal bulletin for a fictional town.",
-            "Format: 170×231mm, 24 pages.",
-            "The issue reproduces the typical structure of a periodic municipal publication: cover, table of contents, articles on local topics, interviews, events agenda.",
-            "This project was designed as a demonstration of editorial layout skills applicable to recurring institutional communication, such as a town's periodic bulletin."
+            "A personal project simulating a full year of a municipal magazine for a fictional town: a series of four quarterly issues, each one following a season.",
+            "Format: 170×231mm, 24 pages per issue.",
+            "Each issue reproduces the typical structure of a periodic municipal publication: cover, table of contents, articles on local topics, interviews, events agenda.",
+            "The challenge was to keep a consistent visual identity across the whole series, while giving each season its own atmosphere.",
+            "This project was designed as a demonstration of editorial layout skills applicable to recurring institutional communication, such as a town's periodic magazine."
           ],
+          coversHint: "Click on a cover to browse the full issue.",
+          galleryCaption: "Below, a selection of pages from the summer issue.",
           links: [
 			'<a href="https://www.calameo.com/books/0082661313a48e65ec5e6?authid=AS1rCq92q3K6" target="_blank">Read the full 24-page issue</a>'
 		  ],
@@ -277,13 +280,16 @@ const translations = {
           type: "Projet personnel"
 		},
       magazinemunicipal: {
-          title: "Maquette de bulletin municipal",
+          title: "Maquette de magazine municipal",
           intro: [
-        	"Un projet personnel simulant un numéro complet de bulletin municipal pour une commune fictive.",
-        	"Format : 170×231mm, 24 pages.",
-        	"Le numéro reproduit la structure habituelle d'une publication municipale périodique : couverture, sommaire, articles sur des sujets locaux, une interview et un agenda des événements.",
-        	"Ce projet a été conçu comme une démonstration de compétences en mise en page éditoriale applicables à une communication institutionnelle récurrente, telle qu'un bulletin municipal périodique."
+        	"Un projet personnel simulant une année complète de magazine municipal pour une commune fictive : une série de quatre numéros trimestriels, chacun suivant une saison.",
+        	"Format : 170×231mm, 24 pages par numéro.",
+        	"Chaque numéro reproduit la structure habituelle d'une publication municipale périodique : couverture, sommaire, articles sur des sujets locaux, une interview et un agenda des événements.",
+        	"L'enjeu était de maintenir une identité visuelle cohérente sur toute la série, tout en donnant à chaque saison sa propre ambiance.",
+        	"Ce projet a été conçu comme une démonstration de compétences en mise en page éditoriale applicables à une communication institutionnelle récurrente, telle qu'un magazine municipal périodique."
           ],
+          coversHint: "Cliquez sur une couverture pour feuilleter le numéro complet.",
+          galleryCaption: "Ci-dessous, une sélection de pages du numéro d'été.",
           links: [
 			'<a href="https://www.calameo.com/books/0082661313a48e65ec5e6?authid=AS1rCq92q3K6" target="_blank">Lisez le numéro complet de 24 pages</a>'
 		  ],
