@@ -331,11 +331,28 @@ img {
   margin-top: 0;
 }
 .skills__category {
-  margin-top: 1.25rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.08rem;     /* slightly bigger than the items, smaller than the purple titles */
+  margin-top: 1.5rem;     /* was 1.25rem */
+  margin-bottom: 0.6rem;  /* was 0.5rem */
 }
 .skills-list {
   margin-bottom: 0.5rem;
+}
+.skills__category + .skills-list {
+  padding-left: 2rem;     /* indents the items under each 📐 / 🎨 / 🖨️ sub-heading */
+}
+.skills__category + .skills-list li {
+  position: relative;
+  padding-left: 1rem;     /* room for the bullet; wrapped lines stay aligned with the text */
+}
+.skills__category + .skills-list li::before {
+  content: "•";           /* small bullet before each item */
+  position: absolute;
+  left: 0;
+  color: var(--first-color);
+  font-weight: var(--font-semi);
+  font-size: 1.2em;
+  line-height: 1.25;
 }
 
 /* ===== WORK =====*/
