@@ -322,6 +322,21 @@ img {
   margin-bottom: 0.6rem;  /* extra space between list items */
   line-height: 1.5;       /* improves readability */
 }
+.skills__group-title {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--first-color);
+}
+.skills__group-title:first-child {
+  margin-top: 0;
+}
+.skills__category {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.skills-list {
+  margin-bottom: 0.5rem;
+}
 
 /* ===== WORK =====*/
 .work__container {
