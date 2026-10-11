@@ -471,8 +471,8 @@ function setLanguage(lang) {
 }
 
 
-// 3. Load saved language or default to EN
+// 3. Load saved language or default to FR
 document.addEventListener("DOMContentLoaded", () => {
-  const savedLang = localStorage.getItem("lang") || "en";
+  const savedLang = localStorage.getItem("lang") || "fr";
   setLanguage(savedLang);
 });
