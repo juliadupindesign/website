@@ -675,7 +675,7 @@ textarea.contact__input {
   margin-bottom: 2rem;
 }
 
-/* Covers of a series (e.g. the 4 municipal magazine issues) */
+/* Covers of a series: centered whatever the number of covers */
 .project__covers {
   display: flex;
   flex-wrap: wrap;
@@ -683,6 +683,14 @@ textarea.contact__input {
   gap: 1.5rem;
   max-width: 900px;
   margin: 0 auto;
+}
+.project__cover {
+  flex: 0 1 calc(50% - 0.75rem); /* 2 per row on phones */
+  max-width: 260px;              /* cover width when there are 1 to 3 covers */
+}
+/* With 4 covers, slightly smaller so they fit on one row */
+.project__covers:has(.project__cover:nth-child(4)) .project__cover {
+  max-width: 200px;
 }
 .project__cover img {
   width: 100%;
@@ -693,14 +701,10 @@ textarea.contact__input {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .project__cover:hover img {
-  transform: translateY(-6px);             /* lifts slightly on hover, to show it is clickable */
+  transform: translateY(-6px);
   box-shadow: 0 10px 25px rgba(14, 36, 49, 0.25);
 }
-.project__cover {
-  flex: 0 1 calc(50% - 0.75rem); /* 2 per row on phones */
-  max-width: 260px;              /* maximum cover width on larger screens */
-}
-}
+
 /* Short lines of text under the covers */
 .project p.project__note {
   max-width: 900px;
