@@ -62,6 +62,19 @@ const translations = {
     labelMessage: "Message",
     submit: "Send",
     projects: {
+	  revuebot: {
+          title: "Botanical science magazine issue",
+          intro: [
+            "A personal project to design a fictional magazine centered on botanical science, aimed at a general audience. Two issues have been designed so far.",
+            "Format: 195×275mm, 40 pages.",
+            "Each issue includes a cover, a table of contents spread, short and long articles, interview spreads, a practical information section. Each element requires a distinct layout approach while maintaining a consistent visual identity throughout.",
+            "This project is an exercise in sustaining a coherent editorial system across varied content types and page lengths, from long-form features to short-format sections."
+          ],
+		  coversHint: "Click on a cover to browse the full issue.",
+          galleryCaption: "Below, a selection of pages from the first issue.",
+		  links: [],
+          type: "Personal project"
+		},
       magazinescience: {
           title: "Botanical science magazine issue",
           intro: [
@@ -267,6 +280,19 @@ const translations = {
     labelMessage: "Message",
     submit: "Envoyer",
     projects: {
+	  revuebot: {
+          title: "Numéro de magazine de vulgarisation botanique",
+          intro: [
+        	"Un projet personnel de conception d'un magazine fictif consacré à la vulgarisation botanique, destiné à un large public. Deux numéros ont été réalisés à ce jour.",
+        	"Format : 195×275mm, 40 pages.",
+        	"Chaque numéro comprend une couverture, un sommaire en double page, des articles courts et longs, des interviews en double page, une rubrique d'informations pratiques. Chaque élément nécessite une mise en page distincte tout en conservant une identité visuelle cohérente.",
+        	"Ce projet a été l'occasion de maintenir un système éditorial cohérent à travers des contenus variés et des formats de longueur différente, du grand format au format court."
+          ],
+		  coversHint: "Cliquez sur une couverture pour feuilleter le numéro complet.",
+          galleryCaption: "Ci-dessous, une sélection de pages du premier numéro.",
+		  links: [],
+          type: "Projet personnel"
+		},
       magazinescience: {
           title: "Numéro de magazine de vulgarisation botanique",
           intro: [
