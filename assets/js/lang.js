@@ -75,19 +75,6 @@ const translations = {
 		  links: [],
           type: "Personal project"
 		},
-      magazinescience: {
-          title: "Botanical science magazine issue",
-          intro: [
-            "A personal project to design a full magazine issue centered on botanical science, aimed at a general audience.",
-            "Format: 195×275mm, 24 pages.",
-            "The issue includes a cover, a table of contents spread, a four-page feature article, two-page articles, interview spreads, a practical information section, each requiring a distinct layout approach while maintaining a consistent visual identity throughout.",
-            "This project was an exercise in sustaining a coherent editorial system across varied content types and page lengths, from long-form features to short-format sections."
-          ],
-          links: [
-			'<a href="https://www.calameo.com/read/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Read the full 24-page issue</a>'
-		  ],
-          type: "Personal project"
-		},
       magazinemunicipal: {
           title: "Municipal magazine mock-up",
           intro: [
@@ -291,19 +278,6 @@ const translations = {
 		  coversHint: "Cliquez sur une couverture pour feuilleter le numéro complet.",
           galleryCaption: "Ci-dessous, une sélection de pages du premier numéro.",
 		  links: [],
-          type: "Projet personnel"
-		},
-      magazinescience: {
-          title: "Numéro de magazine de vulgarisation botanique",
-          intro: [
-        	"Un projet personnel de conception d'un numéro complet de magazine consacré à la vulgarisation botanique, destiné à un large public.",
-        	"Format : 195×275mm, 24 pages.",
-        	"Le numéro comprend : couverture, sommaire, des articles courts sur deux pages, des articles de fond sur quatre pages, des interviews, ainsi qu'une rubrique d'informations pratiques, chacun nécessitant une mise en page distincte tout en conservant une identité visuelle cohérente.",
-        	"Ce projet a été l'occasion de maintenir un système éditorial cohérent à travers des contenus variés et des formats de longueur différente, du grand format au format court."
-          ],
-          links: [
-			'<a href="https://www.calameo.com/read/008266131052623a1c6c7?authid=5b1BQXUfK41u" target="_blank">Lisez le numéro complet de 24 pages</a>'
-		  ],
           type: "Projet personnel"
 		},
       magazinemunicipal: {
