@@ -677,8 +677,9 @@ textarea.contact__input {
 
 /* Covers of a series (e.g. the 4 municipal magazine issues) */
 .project__covers {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);   /* 4 covers side by side */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
   max-width: 900px;
   margin: 0 auto;
@@ -695,11 +696,10 @@ textarea.contact__input {
   transform: translateY(-6px);             /* lifts slightly on hover, to show it is clickable */
   box-shadow: 0 10px 25px rgba(14, 36, 49, 0.25);
 }
-@media screen and (max-width: 576px) {
-  .project__covers {
-    grid-template-columns: repeat(2, 1fr); /* 2 x 2 on phones */
-    gap: 1rem;
-  }
+.project__cover {
+  flex: 0 1 calc(50% - 0.75rem); /* 2 per row on phones */
+  max-width: 260px;              /* maximum cover width on larger screens */
+}
 }
 /* Short lines of text under the covers */
 .project p.project__note {
