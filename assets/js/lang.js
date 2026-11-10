@@ -62,6 +62,18 @@ const translations = {
     labelMessage: "Message",
     submit: "Send",
     projects: {
+      amat: {
+        title: "A1 event poster for AMAT",
+        intro: [
+          "Client: Association Métiers d’Arts et des Techniques (AMAT)",
+          "Date: November 2026",
+          "The client contacted me because the current version of their poster was not easy to read once displayed on a wall.",
+          "After discussion with the client, the project was defined as the graphic design and print preparation of an A1 event poster for the association. It included two design directions, adaptations in A3 and A4 formats, and delivery of print-ready files."
+        ],
+        galleryCaption: "Below, a mockup and a close-up of the poster.",
+        links: [],
+        type: "Commissioned work"
+      },		
 	  revuebot: {
           title: "Botanical science magazine issue",
           intro: [
@@ -267,6 +279,18 @@ const translations = {
     labelMessage: "Message",
     submit: "Envoyer",
     projects: {
+      amat: {
+        title: "Affiche événementielle A1 pour l’AMAT",
+        intro: [
+          "Client : Association Métiers d’Arts et des Techniques (AMAT)",
+          "Date : novembre 2026",
+          "Le client m’a contactée car la version actuelle de son affiche n’était pas assez lisible une fois affichée au mur.",
+          "Après échange avec le client, le projet a été défini comme la conception graphique et la préparation à l’impression d’une affiche événementielle en A1 pour l’association. Il comprenait deux pistes graphiques, des déclinaisons en formats A3 et A4, et la livraison de fichiers prêts à imprimer."
+        ],
+        galleryCaption: "Ci-dessous, une maquette et un gros plan de l’affiche.",
+        links: [],
+        type: "Travail commandé"
+      },		
 	  revuebot: {
           title: "Numéro de magazine de vulgarisation botanique",
           intro: [
