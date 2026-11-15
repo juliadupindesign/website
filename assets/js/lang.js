@@ -178,11 +178,11 @@ const translations = {
         type: "Personal project"
       },
 	  fruitposter: {
-        title: "Fruit types poster",
+        title: "Educational poster on fruit types",
         intro: [
-			"This is one of two scientific posters that resulted from my postdoctoral MSCA project named Fruitful.",
-			"The idea was to present this poster to the general public and use it as extra material to explain differences in fruit types.",
-			"This Evolutionary Biology project lasted from 2019 to 2022."
+			"Graphic design and print preparation of an A1 educational poster for a science event for the general public, organized by the Museum of natural history of Toulouse.",
+			"This poster complemented the exhibition materials (fruit types) displayed on a table.",
+			"Scientific poster resulting from my postdoctoral MSCA project named Fruitful (2022)."
 		],
         links: [
 			'<a href="https://cordis.europa.eu/project/id/842234" target="_blank">Fruitful research project description</a>'
@@ -192,9 +192,9 @@ const translations = {
 	  seeddispersal: {
         title: "Seed dispersal poster",
         intro: [
-			"This is the second scientific poster that resulted from my postdoctoral MSCA project named Fruitful.",
-			"The idea was to present this poster to the general public and use it as extra material to explain the different ways seeds are dispersed.",
-			"This Evolutionary Biology project lasted from 2019 to 2022."
+			"Graphic design and print preparation of an A1 educational poster for a science event for the general public, organized by the Museum of natural history of Toulouse.",
+			"This poster complemented the exhibition materials (the different ways seeds are dispersed) displayed on a table.",
+			"Scientific poster resulting from my postdoctoral MSCA project named Fruitful (2022)."
 		],
         links: [
 			'<a href="https://cordis.europa.eu/project/id/842234" target="_blank">Fruitful research project description</a>'
