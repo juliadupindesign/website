@@ -62,7 +62,20 @@ const translations = {
     labelMessage: "Message",
     submit: "Send",
     projects: {
-      amat: {
+      rappactivite: {
+        title: "Activity report for an environmental association",
+        intro: [
+          "A personal project to design the graphic layout of an activity report for a large environmental association.",
+          "Format: 210×297mm, 32 pages.",
+          "This report includes a cover, a table of contents, an editorial, a page on the association's statutory purpose, a page on its values, a financial management report spread, descriptions of completed projects (one to four pages per project), a spread summarizing total expenses by project, pages on future projects, and an acknowledgements page. Each element requires a distinct layout approach while maintaining a consistent visual identity throughout.",
+          "This project was an opportunity to sustain a coherent editorial system across varied content."
+        ],
+        coversHint: "Click here to browse the full issue.",
+        galleryCaption: "Below, a selection of pages from the first issue.",
+        links: [],
+        type: "Personal project"
+      },    
+	  amat: {
         title: "A1 event poster for AMAT",
         intro: [
           "Client: Association Métiers d’Arts et des Techniques (AMAT)",
@@ -279,6 +292,19 @@ const translations = {
     labelMessage: "Message",
     submit: "Envoyer",
     projects: {
+      rappactivite: {
+        title: "Rapport d'activité d'une association environnementale",
+        intro: [
+          "Un projet personnel de conception graphique d'un rapport d'activité pour une large association environnementale.",
+          "Format : 210×297mm, 32 pages.",
+          "Ce rapport comprend une couverture, un sommaire, un éditorial, une page sur l'objet statutaire, une page sur les valeurs de l'association, un rapport de gestion financière en double page, des descriptions des projets réalisés (entre une et quatre pages de description par projet), un récapitulatif des dépenses totales par projet en double page, des pages sur des projets futurs, une page de remerciements. Chaque élément nécessite une mise en page distincte tout en conservant une identité visuelle cohérente.",
+          "Ce projet a été l'occasion de maintenir un système éditorial cohérent à travers des contenus variés."
+        ],
+        coversHint: "Cliquez ici pour feuilleter le numéro complet.",
+        galleryCaption: "Ci-dessous, une sélection de pages du premier numéro.",
+        links: [],
+        type: "Projet personnel"
+      },
       amat: {
         title: "Affiche événementielle A1 pour l’AMAT",
         intro: [
