@@ -412,11 +412,11 @@ const translations = {
 		},
 
 		fruitposter: {
-		  title: "Poster sur les types de fruits",
+		  title: "Affiche pédagogique sur les types de fruits",
 		  intro: [
-			"Ceci est l'un des deux posters scientifiques issus de mon projet postdoctoral MSCA nommé Fruitful.",
-			"L'idée était de présenter ce poster au grand public et de l'utiliser comme support supplémentaire pour expliquer les différences entre les types de fruits.",
-			"Ce projet en biologie évolutive a duré de 2019 à 2022."
+			"Conception graphique et préparation à l'impression d'une affiche pédagogique en A1 pour un événement scientifique destiné au grand public et organisé par le Muséum de Toulouse.",
+			"Cette affiche venait compléter les supports d'exposition (types de fruits) présentés sur une table.",
+			"Affiche scientifique issu de mon projet postdoctoral MSCA nommé Fruitful (2022)."
 		  ],
 		  links: [
 			'<a href="https://cordis.europa.eu/project/id/842234" target="_blank">Description du projet de recherche Fruitful</a>'
@@ -425,11 +425,11 @@ const translations = {
 		},
 
 		seeddispersal: {
-		  title: "Poster sur la dispersion des graines",
+		  title: "Affiche sur la dispersion des graines",
 		  intro: [
-			"Ceci est le deuxième poster scientifique issu de mon projet postdoctoral MSCA nommé Fruitful.",
-			"L'idée était de présenter ce poster au grand public et de l'utiliser comme support supplémentaire pour expliquer les différentes façons dont les graines se dispersent.",
-			"Ce projet en biologie évolutive a duré de 2019 à 2022."
+			"Conception graphique et préparation à l'impression d'une affiche pédagogique en A1 pour un événement scientifique destiné au grand public et organisé par le Muséum de Toulouse.",
+			"Cette affiche venait compléter les supports d'exposition (différentes façons dont les graines se dispersent) présentés sur une table.",
+			"Affiche scientifique issu de mon projet postdoctoral MSCA nommé Fruitful (2022)."
 		  ],
 		  links: [
 			'<a href="https://cordis.europa.eu/project/id/842234" target="_blank">Description du projet de recherche Fruitful</a>'
