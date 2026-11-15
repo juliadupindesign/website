@@ -142,10 +142,11 @@ const translations = {
           type: "Personal project"
       },
       idefix: {
-        title: "Idefix rover brochure",
+        title: "Idefix rover leaflet",
         intro: [
-          "A brochure to complement an exhibition about the IDEFIX rover.",
-          "This brochure has an interactive aspect: once one starts opening the brochure, one incidentally helps IDEFIX open its solar panels."
+          "Leaflet designed to accompany a fictional exhibition about the IDEFIX space rover.",
+		  "Format: folded 100×210mm, open 300×210mm.",
+		  "This outreach piece structures technical content for a family audience, with an interactive aspect tied to the opening of the leaflet: once one starts opening the brochure, one incidentally helps IDEFIX open its solar panels."
         ],
         links: [
 			'<a href="https://cnes.fr/actualites/idefix-passage-de-relai-japon" target="_blank">CNES article on IDEFIX</a>',
@@ -374,8 +375,9 @@ const translations = {
 		idefix: {
 		  title: "Dépliant du rover IDEFIX",
 		  intro: [
-			"Un dépliant pour compléter une exposition sur le rover IDEFIX.",
-			"Ce dépliant a un aspect interactif : lorsqu'on commence à l’ouvrir, on aide par inadvertance IDEFIX à déployer ses panneaux solaires."
+			"Dépliant conçu pour accompagner une exposition fictive sur le rover spatial IDEFIX.",
+			"Format : plié 100×210mm, ouvert 300×210mm.",
+			"Ce support de médiation structure des contenus techniques pour un public familial, avec un aspect interactif lié à l'ouverture du dépliant : lorsqu'on commence à l'ouvrir, on aide par inadvertance IDEFIX à déployer ses panneaux solaires."
 		  ],
 		  links: [
 			'<a href="https://cnes.fr/actualites/idefix-passage-de-relai-japon" target="_blank">Article CNES sur IDEFIX</a>',
