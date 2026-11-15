@@ -154,11 +154,11 @@ const translations = {
         type: "Personal project"
       },
       greenhouse: {
-        title: "Carnivorous plants greenhouse brochure",
+        title: "Carnivorous plants greenhouse leaflet",
         intro: [
-			"The idea for this brochure came after a visit to the greenhouses at the Museum of natural history of Toulouse.",
-			"The variety of plants in the greenhouse deserved a brochure that the visitor could take with them with extra information on all different plant genera.",
-			"My background in botany allowed me to write the scientific content myself."
+			"Graphic design of an informational leaflet on the carnivorous plants of a greenhouse in a fictional natural history museum.",
+			"Format: folded 105×148mm, open 420×148mm.",
+			"The idea was to create a take-away piece for visitors, with extra information on all the plant genera."
 		],
         links: [
 			'<a href="https://museum.toulouse-metropole.fr/le-jardin-botanique/" target="_blank">Botanical garden</a>',
@@ -387,9 +387,9 @@ const translations = {
 		greenhouse: {
 		  title: "Dépliant serre de plantes carnivores",
 		  intro: [
-			"L'idée de ce dépliant est née après une visite des serres du Muséum d'Histoire Naturelle de Toulouse.",
-			"La variété des plantes de la serre méritait un dépliant que le visiteur pourrait emporter, avec des informations supplémentaires sur tous les genres de plantes.",
-			"Ma formation en botanique m’a permis de concevoir moi-même le contenu scientifique du dépliant."
+			"Conception graphique d'un dépliant informatif sur les plantes carnivores d'une serre d'un muséum d'histoire naturelle fictif.",
+			"Format : plié 105×148mm, ouvert 420×148mm.",
+			"L'idée était de créer un support que le visiteur pourrait emporter, avec des informations supplémentaires sur tous les genres de plantes."
 		  ],
 		  links: [
 			'<a href="https://museum.toulouse-metropole.fr/le-jardin-botanique/" target="_blank">Jardin botanique</a>',
